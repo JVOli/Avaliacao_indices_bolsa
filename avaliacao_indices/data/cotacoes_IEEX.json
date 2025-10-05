@@ -1,0 +1,104 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "IEEX",
+    "description": "IEELETRICA"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 565.217129326508,
+      "indxCmpnPctg": 6.5035949,
+      "symb": "SRNA3",
+      "desc": "SERENA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 454.93086018962845,
+      "indxCmpnPctg": 7.0063118,
+      "symb": "ENEV3",
+      "desc": "ENEVA       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 303.28724012641896,
+      "indxCmpnPctg": 6.9992476,
+      "symb": "ISAE4",
+      "desc": "ISA ENERGIA PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 567.9742860549301,
+      "indxCmpnPctg": 6.6729055,
+      "symb": "CPLE6",
+      "desc": "COPEL       PNB     N2"
+    },
+    {
+      "indexTheoreticalQty": 645.1746744507458,
+      "indxCmpnPctg": 6.0651241,
+      "symb": "AURE3",
+      "desc": "AUREN       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 173.7008738905854,
+      "indxCmpnPctg": 6.1950547,
+      "symb": "CPFE3",
+      "desc": "CPFL ENERGIAON      NM"
+    },
+    {
+      "indexTheoreticalQty": 190.24381426111736,
+      "indxCmpnPctg": 6.4252461,
+      "symb": "EQTL3",
+      "desc": "EQUATORIAL  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 253.65841901482312,
+      "indxCmpnPctg": 6.6030851,
+      "symb": "NEOE3",
+      "desc": "NEOENERGIA  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 237.1154786442912,
+      "indxCmpnPctg": 6.6164943,
+      "symb": "COCE5",
+      "desc": "COELCE      PNA"
+    },
+    {
+      "indexTheoreticalQty": 143.3721498779435,
+      "indxCmpnPctg": 6.6655587,
+      "symb": "ENGI11",
+      "desc": "ENERGISA    UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 234.3583219158692,
+      "indxCmpnPctg": 6.897651,
+      "symb": "ALUP11",
+      "desc": "ALUPAR      UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 157.15793352005346,
+      "indxCmpnPctg": 7.6725338,
+      "symb": "ELET3",
+      "desc": "ELETROBRAS  ON      N1"
+    },
+    {
+      "indexTheoreticalQty": 198.51528444638333,
+      "indxCmpnPctg": 6.7508433,
+      "symb": "TAEE11",
+      "desc": "TAESA       UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 173.7008738905854,
+      "indxCmpnPctg": 6.5672758,
+      "symb": "EGIE3",
+      "desc": "ENGIE BRASILON      NM"
+    },
+    {
+      "indexTheoreticalQty": 631.3888908086359,
+      "indxCmpnPctg": 6.3590734,
+      "symb": "CMIG4",
+      "desc": "CEMIG       PN  EJ  N1"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:02:56"
+  }
+}

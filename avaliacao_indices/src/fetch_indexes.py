@@ -10,20 +10,30 @@ class BuscadorIndices:
     Classe responsável por buscar e gerenciar dados de índices da B3.
     """
     
-    def __init__(self, arquivo_json: str = "cotacoes_indices.json"):
+    def __init__(self, indice: str = "IBOV", arquivo_json: str = None):
         """
         Inicializa o buscador de índices.
         
         Args:
-            arquivo_json: Nome do arquivo JSON para salvar/carregar os dados
+            indice: Código do índice a ser buscado (ex: IBOV, IFIX, IDIV, SMLL)
+            arquivo_json: Nome do arquivo JSON para salvar/carregar os dados.
+                         Se não informado, usa 'cotacoes_{indice}.json'
         """
         # Obtém o diretório do script e define o caminho absoluto
         script_dir = Path(__file__).parent.parent
         self.data_dir = script_dir / "data"
+        
+        # Define o índice
+        self.indice = indice.upper()
+        
+        # Define o nome do arquivo JSON
+        if arquivo_json is None:
+            arquivo_json = f"cotacoes_{self.indice}.json"
         self.arquivo_json = self.data_dir / arquivo_json
         
-        # URL da API da B3
-        self.url = "https://www.b3.com.br/lumis/api/rest/cotacoes-indices/lumgetdata/list.json"
+        # URL base da API da B3 - o índice será concatenado
+        self.url_base = "https://cotacao.b3.com.br/mds/api/v1/IndexComposition"
+        self.url = f"{self.url_base}/{self.indice}"
         
         # Headers para simular um navegador real
         self.headers = {
@@ -32,7 +42,7 @@ class BuscadorIndices:
             'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
             'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
-            'Referer': 'https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/',
+            'Referer': 'https://www.b3.com.br/',
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-origin'
@@ -109,8 +119,29 @@ class BuscadorIndices:
 
 # Exemplo de uso
 if __name__ == "__main__":
-    buscador = BuscadorIndices()
+    # Buscar dados do IBOVESPA
+    print("=" * 60)
+    print("Buscando dados do IBOVESPA...")
+    print("=" * 60)
+    buscador = BuscadorIndices(indice="IBOV")
     dados = buscador.obter_dados()
-    print(f"\nTotal de índices encontrados: {len(dados.get('results', []))}")
+    
+    # Exibir informações do índice
+    if dados and 'Index' in dados:
+        print(f"\nÍndice: {dados['Index'].get('symbol', 'N/A')}")
+        print(f"Descrição: {dados['Index'].get('description', 'N/A')}")
+        print(f"Total de ativos na composição: {len(dados.get('UnderlyingList', []))}")
+        
+        # Exibir os 5 primeiros ativos
+        print("\n5 primeiros ativos:")
+        for i, ativo in enumerate(dados.get('UnderlyingList', [])[:5], 1):
+            print(f"{i}. {ativo['symb']} - {ativo['desc']} - Participação: {ativo['indxCmpnPctg']}%")
+    
+    # Exemplo: buscar outro índice (comentado)
+    # print("\n" + "=" * 60)
+    # print("Buscando dados do IFIX...")
+    # print("=" * 60)
+    # buscador_ifix = BuscadorIndices(indice="IFIX")
+    # dados_ifix = buscador_ifix.obter_dados()
 
 #%%

@@ -1,0 +1,890 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "BDRX",
+    "description": "BDRX"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 0.10056504434779927,
+      "indxCmpnPctg": 0.0073584,
+      "symb": "RIGG34",
+      "desc": "TRANSOCEAN  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.02287155935151644,
+      "indxCmpnPctg": 0.0585897,
+      "symb": "FSLR34",
+      "desc": "FIRST SOLAR DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.08892277644579372,
+      "indxCmpnPctg": 0.3497253,
+      "symb": "S1PO34",
+      "desc": "SPOTIFY TECHDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.07867993677973714,
+      "indxCmpnPctg": 0.1123709,
+      "symb": "T1TW34",
+      "desc": "TAKE-TWO INTDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.07035728300485637,
+      "indxCmpnPctg": 0.017935,
+      "symb": "AALL34",
+      "desc": "AMERICAN AIRDRN"
+    },
+    {
+      "indexTheoreticalQty": 1.1089478714031675,
+      "indxCmpnPctg": 0.4467454,
+      "symb": "N1OW34",
+      "desc": "SERVICENOW  DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.5137628940827126,
+      "indxCmpnPctg": 0.4537517,
+      "symb": "P1DD34",
+      "desc": "PDD HOLDING DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.1811285610759956,
+      "indxCmpnPctg": 0.0230502,
+      "symb": "B1IL34",
+      "desc": "BILIBILI INCDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.49316223385415997,
+      "indxCmpnPctg": 0.0123427,
+      "symb": "T1AL34",
+      "desc": "TAL EDUCATIODRN"
+    },
+    {
+      "indexTheoreticalQty": 2.265486134077999,
+      "indxCmpnPctg": 1.1682838,
+      "symb": "NFLX34",
+      "desc": "NETFLIX     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6487009804236636,
+      "indxCmpnPctg": 0.2704482,
+      "symb": "MELI34",
+      "desc": "MERCADOLIBREDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.037432390508777,
+      "indxCmpnPctg": 0.1563652,
+      "symb": "PYPL34",
+      "desc": "PAYPAL HOLD DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.2616138800443446,
+      "indxCmpnPctg": 0.3540044,
+      "symb": "ADBE34",
+      "desc": "ADOBE INC   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8894696003975854,
+      "indxCmpnPctg": 0.4760319,
+      "symb": "U1BE34",
+      "desc": "UBER TECH INDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.2302133129191768,
+      "indxCmpnPctg": 0.1266143,
+      "symb": "BERK34",
+      "desc": "BERKSHIRE   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.9150517482356203,
+      "indxCmpnPctg": 0.1234674,
+      "symb": "AIRB34",
+      "desc": "AIRBNB      DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.456805891907805,
+      "indxCmpnPctg": 0.2375993,
+      "symb": "S2EA34",
+      "desc": "SEA LTD     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5652137759473144,
+      "indxCmpnPctg": 0.0035365,
+      "symb": "T2DH34",
+      "desc": "TELADOCHEALTDRN"
+    },
+    {
+      "indexTheoreticalQty": 1.4232919411047578,
+      "indxCmpnPctg": 0.1896179,
+      "symb": "S2NW34",
+      "desc": "SNOWFLAKE   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.9010583189129546,
+      "indxCmpnPctg": 0.0390904,
+      "symb": "U2ST34",
+      "desc": "UNITY SOFTWRDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.16345490697175336,
+      "indxCmpnPctg": 0.0004213,
+      "symb": "B2YN34",
+      "desc": "BEYOND MEAT DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.1788726732056334,
+      "indxCmpnPctg": 0.0103367,
+      "symb": "K2CG34",
+      "desc": "KINGSOFT CHLDRN"
+    },
+    {
+      "indexTheoreticalQty": 4.752128462594695,
+      "indxCmpnPctg": 0.0537381,
+      "symb": "T2TD34",
+      "desc": "TRADE DESK  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6877961272449994,
+      "indxCmpnPctg": 0.2033795,
+      "symb": "R2BL34",
+      "desc": "ROBLOX CORP DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.7275109626672435,
+      "indxCmpnPctg": 1.0113885,
+      "symb": "P2LT34",
+      "desc": "PALANTIRTECHDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6028813763063848,
+      "indxCmpnPctg": 0.1980086,
+      "symb": "C2OI34",
+      "desc": "COINBASEGLOBDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5846992056253424,
+      "indxCmpnPctg": 0.2936464,
+      "symb": "C2RW34",
+      "desc": "CROWDSTRIKE DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.2051931883927373,
+      "indxCmpnPctg": 0.0120796,
+      "symb": "U2PS34",
+      "desc": "UPSTART HOLDDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.22158885471590953,
+      "indxCmpnPctg": 0.0053432,
+      "symb": "S2ED34",
+      "desc": "SOLAR TECH  DRN"
+    },
+    {
+      "indexTheoreticalQty": 15.615935218499795,
+      "indxCmpnPctg": 0.4356279,
+      "symb": "S2HO34",
+      "desc": "SHOPIFY INC DRN"
+    },
+    {
+      "indexTheoreticalQty": 22.743906858561818,
+      "indxCmpnPctg": 5.6119135,
+      "symb": "AMZO34",
+      "desc": "AMAZON      DRN"
+    },
+    {
+      "indexTheoreticalQty": 11.005707085752231,
+      "indxCmpnPctg": 3.3424379,
+      "symb": "TSLA34",
+      "desc": "TESLA INC   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.109417007472069,
+      "indxCmpnPctg": 0.0152571,
+      "symb": "L1MN34",
+      "desc": "LUMEN TECH  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.40557755229665843,
+      "indxCmpnPctg": 0.058729,
+      "symb": "B1NT34",
+      "desc": "BIONTECH SE DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8297484923384041,
+      "indxCmpnPctg": 0.0263206,
+      "symb": "M1RN34",
+      "desc": "MODERNA INC DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.3843456918610784,
+      "indxCmpnPctg": 0.654035,
+      "symb": "A1MD34",
+      "desc": "ADVANCED MICDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.4255340715608268,
+      "indxCmpnPctg": 0.0945776,
+      "symb": "BIDU34",
+      "desc": "BAIDU INC   DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.9774329791857144,
+      "indxCmpnPctg": 0.013277,
+      "symb": "B2HI34",
+      "desc": "BILL HOLD   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8329292107446357,
+      "indxCmpnPctg": 0.156486,
+      "symb": "M1NS34",
+      "desc": "MONSTER BEVEDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.035597866449659794,
+      "indxCmpnPctg": 0.0017922,
+      "symb": "S2GM34",
+      "desc": "SIGMA LITHM DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5224850547957232,
+      "indxCmpnPctg": 0.029607,
+      "symb": "ROXO34",
+      "desc": "NU HOLDINGS DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.15091112842805884,
+      "indxCmpnPctg": 0.0189821,
+      "symb": "S1BS34",
+      "desc": "SIBANYE STILDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.800306634499037,
+      "indxCmpnPctg": 0.3864008,
+      "symb": "ITLC34",
+      "desc": "INTEL       DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.8401722099955662,
+      "indxCmpnPctg": 0.2044185,
+      "symb": "M2ST34",
+      "desc": "STRATEGY INCDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5360760639965931,
+      "indxCmpnPctg": 0.4307743,
+      "symb": "A1NE34",
+      "desc": "ARISTA NETWODRN"
+    },
+    {
+      "indexTheoreticalQty": 4.266037157605569,
+      "indxCmpnPctg": 0.3286436,
+      "symb": "P2AN34",
+      "desc": "PALOALTO NETDRN"
+    },
+    {
+      "indexTheoreticalQty": 1.4650214362464529,
+      "indxCmpnPctg": 0.1001925,
+      "symb": "X1YZ34",
+      "desc": "BLOCK INC.  DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.0677908919260048,
+      "indxCmpnPctg": 0.1269187,
+      "symb": "DEOP34",
+      "desc": "DIAGEO PL   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.026659703954309055,
+      "indxCmpnPctg": 0.0107478,
+      "symb": "STOC34",
+      "desc": "STONE CO    DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8266265908211982,
+      "indxCmpnPctg": 0.1098695,
+      "symb": "JDCO34",
+      "desc": "JD COM      DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.048209632028239566,
+      "indxCmpnPctg": 0.0137845,
+      "symb": "C2OL34",
+      "desc": "GRUPOCIBEST DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.5872168287147799,
+      "indxCmpnPctg": 0.35818,
+      "symb": "BCSA34",
+      "desc": "SANTANDER   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.18186954085033866,
+      "indxCmpnPctg": 0.0770098,
+      "symb": "ARMT34",
+      "desc": "ARCELOR     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5150787758291923,
+      "indxCmpnPctg": 0.06527,
+      "symb": "V1OD34",
+      "desc": "VODAFONE GRODRN"
+    },
+    {
+      "indexTheoreticalQty": 7.120241217765273,
+      "indxCmpnPctg": 1.0701094,
+      "symb": "BABA34",
+      "desc": "ALIBABAGR   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6046071231164545,
+      "indxCmpnPctg": 0.0673397,
+      "symb": "TLNC34",
+      "desc": "TELEFONIC   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.1924664334502613,
+      "indxCmpnPctg": 0.0320547,
+      "symb": "DISB34",
+      "desc": "WALT DISNEY DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.43842573984733285,
+      "indxCmpnPctg": 0.0442011,
+      "symb": "E1CO34",
+      "desc": "ECOPETROL SADRN"
+    },
+    {
+      "indexTheoreticalQty": 0.0745340925106552,
+      "indxCmpnPctg": 0.0548347,
+      "symb": "AXPB34",
+      "desc": "AMERICAN EXPDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5631849771425028,
+      "indxCmpnPctg": 0.0528923,
+      "symb": "DGCO34",
+      "desc": "DOLLAR GENERDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.965955648149163,
+      "indxCmpnPctg": 1.2272805,
+      "symb": "MSCD34",
+      "desc": "MASTERCARD  DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.697510365708054,
+      "indxCmpnPctg": 0.4324395,
+      "symb": "VERZ34",
+      "desc": "VERIZON     DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.797028486429023,
+      "indxCmpnPctg": 1.9215474,
+      "symb": "ORCL34",
+      "desc": "ORACLE      DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.7697591041980256,
+      "indxCmpnPctg": 0.1531306,
+      "symb": "ATTB34",
+      "desc": "ATT INC     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.10233874249034682,
+      "indxCmpnPctg": 0.0088114,
+      "symb": "A1AP34",
+      "desc": "ADVANCE AUTODRN"
+    },
+    {
+      "indexTheoreticalQty": 3.0138780520157487,
+      "indxCmpnPctg": 0.9895563,
+      "symb": "ABBV34",
+      "desc": "ABBVIE      DRN"
+    },
+    {
+      "indexTheoreticalQty": 3.4967252579626082,
+      "indxCmpnPctg": 0.8431691,
+      "symb": "PGCO34",
+      "desc": "PG          DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6032618520558791,
+      "indxCmpnPctg": 0.149942,
+      "symb": "COLG34",
+      "desc": "COLGATE     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.036224102108193525,
+      "indxCmpnPctg": 0.118182,
+      "symb": "D1EL34",
+      "desc": "DELL TECHNOLDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.7992595380693384,
+      "indxCmpnPctg": 0.5438703,
+      "symb": "CATP34",
+      "desc": "CATERPILLAR DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.4249921843092888,
+      "indxCmpnPctg": 0.3630435,
+      "symb": "PFIZ34",
+      "desc": "PFIZER      DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.3096706158848144,
+      "indxCmpnPctg": 0.9585975,
+      "symb": "ASML34",
+      "desc": "ASML HOLD   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.1698609576101198,
+      "indxCmpnPctg": 0.1172762,
+      "symb": "MSBR34",
+      "desc": "MORGAN STAN DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.891511484850191,
+      "indxCmpnPctg": 0.9606456,
+      "symb": "COWC34",
+      "desc": "COSTCO      DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.09724619795381623,
+      "indxCmpnPctg": 0.0261619,
+      "symb": "TEXA34",
+      "desc": "TEXAS INC   DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.5925707010823908,
+      "indxCmpnPctg": 0.1599635,
+      "symb": "L1YG34",
+      "desc": "LLOYDS BANKIDRN"
+    },
+    {
+      "indexTheoreticalQty": 1.1777653376367394,
+      "indxCmpnPctg": 0.422762,
+      "symb": "CTGP34",
+      "desc": "CITIGROUP   DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.9841839126120873,
+      "indxCmpnPctg": 0.613775,
+      "symb": "A1ZN34",
+      "desc": "ASTRAZENECA DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.366326568506013,
+      "indxCmpnPctg": 0.60894,
+      "symb": "WFCO34",
+      "desc": "WELLS FARGO DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.41681597124018777,
+      "indxCmpnPctg": 0.1131833,
+      "symb": "FDMO34",
+      "desc": "FORD MOTORS DRN"
+    },
+    {
+      "indexTheoreticalQty": 31.64849788710164,
+      "indxCmpnPctg": 9.0656199,
+      "symb": "AAPL34",
+      "desc": "APPLE       DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.22317575911988746,
+      "indxCmpnPctg": 0.0855188,
+      "symb": "VISA34",
+      "desc": "VISA INC    DRN"
+    },
+    {
+      "indexTheoreticalQty": 3.0276093857741926,
+      "indxCmpnPctg": 1.8411123,
+      "symb": "LILY34",
+      "desc": "LILLY       DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.2614391523858296,
+      "indxCmpnPctg": 0.3418295,
+      "symb": "ULEV34",
+      "desc": "UNILEVER    DRN"
+    },
+    {
+      "indexTheoreticalQty": 3.6367066814738,
+      "indxCmpnPctg": 1.1211007,
+      "symb": "EXXO34",
+      "desc": "EXXON MOBIL DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.13373015640456837,
+      "indxCmpnPctg": 0.1966008,
+      "symb": "RIOT34",
+      "desc": "RIO TINTO   DRN"
+    },
+    {
+      "indexTheoreticalQty": 13.615180852319266,
+      "indxCmpnPctg": 1.9137877,
+      "symb": "WALM34",
+      "desc": "WAL MART    DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.1233095993746627,
+      "indxCmpnPctg": 0.2117883,
+      "symb": "B1PP34",
+      "desc": "BP PLC      DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.4813679676485536,
+      "indxCmpnPctg": 0.5819959,
+      "symb": "H1SB34",
+      "desc": "HSBC HOLDINGDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.12155774744227028,
+      "indxCmpnPctg": 0.2346272,
+      "symb": "SBUB34",
+      "desc": "STARBUCKS   DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.89190402260329,
+      "indxCmpnPctg": 0.4676906,
+      "symb": "N1VO34",
+      "desc": "NOVO NORDISKDRN"
+    },
+    {
+      "indexTheoreticalQty": 1.598090275853094,
+      "indxCmpnPctg": 0.2762887,
+      "symb": "COPH34",
+      "desc": "COPHILLIPS  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.5452628440743442,
+      "indxCmpnPctg": 0.1478128,
+      "symb": "E1QN34",
+      "desc": "EQUINOR ASA DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8348158722886221,
+      "indxCmpnPctg": 0.1783935,
+      "symb": "EQIX34",
+      "desc": "EQUINIX INC DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.8425492717467997,
+      "indxCmpnPctg": 0.626304,
+      "symb": "CHVX34",
+      "desc": "CHEVRON     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8557006448989167,
+      "indxCmpnPctg": 0.4244652,
+      "symb": "A1MT34",
+      "desc": "APPLIED MATEDRN"
+    },
+    {
+      "indexTheoreticalQty": 19.022292954199376,
+      "indxCmpnPctg": 9.0638051,
+      "symb": "MSFT34",
+      "desc": "MICROSOFT   DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.2271763738696568,
+      "indxCmpnPctg": 0.1994202,
+      "symb": "MMMC34",
+      "desc": "3M          DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.257937009704256,
+      "indxCmpnPctg": 0.0707433,
+      "symb": "JNJB34",
+      "desc": "JOHNSON     DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.8783263803636319,
+      "indxCmpnPctg": 0.3798924,
+      "symb": "NEXT34",
+      "desc": "NEXTERA ENERDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.9683709215591118,
+      "indxCmpnPctg": 0.560813,
+      "symb": "GSGI34",
+      "desc": "GOLDMANSACHSDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.12635607957814937,
+      "indxCmpnPctg": 0.0182416,
+      "symb": "KHCB34",
+      "desc": "KRAFT HEINZ DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.5218270776998741,
+      "indxCmpnPctg": 0.5080495,
+      "symb": "MCDC34",
+      "desc": "MCDONALDS   DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.266776467371595,
+      "indxCmpnPctg": 0.2086075,
+      "symb": "NIKE34",
+      "desc": "NIKE        DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.3806400998969435,
+      "indxCmpnPctg": 0.4313548,
+      "symb": "QCOM34",
+      "desc": "QUALCOMM    DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.11712728743680859,
+      "indxCmpnPctg": 0.2240062,
+      "symb": "N1EM34",
+      "desc": "NEWMONT GOLDDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.970485774844567,
+      "indxCmpnPctg": 0.9316533,
+      "symb": "HOME34",
+      "desc": "HOME DEPOT  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.4060787114308502,
+      "indxCmpnPctg": 0.1341479,
+      "symb": "GMCO34",
+      "desc": "GENERAL MOT DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6047742117043862,
+      "indxCmpnPctg": 0.4159419,
+      "symb": "BKNG34",
+      "desc": "BOOKING     DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.0897884297474907,
+      "indxCmpnPctg": 0.4267034,
+      "symb": "BLAK34",
+      "desc": "BLACKROCK   DRN"
+    },
+    {
+      "indexTheoreticalQty": 3.1591992727869527,
+      "indxCmpnPctg": 0.8819586,
+      "symb": "BOAC34",
+      "desc": "BANK AMERICADRN"
+    },
+    {
+      "indexTheoreticalQty": 0.14640244494582202,
+      "indxCmpnPctg": 0.0307525,
+      "symb": "PEPB34",
+      "desc": "PEPSICO INC DRN"
+    },
+    {
+      "indexTheoreticalQty": 7.033715133580629,
+      "indxCmpnPctg": 3.1985112,
+      "symb": "GOGL35",
+      "desc": "ALPHABET    DRN"
+    },
+    {
+      "indexTheoreticalQty": 6.947984932752923,
+      "indxCmpnPctg": 3.15606,
+      "symb": "GOGL34",
+      "desc": "ALPHABET    DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.13925177846364956,
+      "indxCmpnPctg": 0.1428162,
+      "symb": "SIMN34",
+      "desc": "SIMON PROP  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.6298224864460228,
+      "indxCmpnPctg": 0.1036642,
+      "symb": "OXYP34",
+      "desc": "OCCIDENT PTRDRN"
+    },
+    {
+      "indexTheoreticalQty": 124.88459105647978,
+      "indxCmpnPctg": 10.8979918,
+      "symb": "NVDC34",
+      "desc": "NVIDIA CORP DRN"
+    },
+    {
+      "indexTheoreticalQty": 3.697562115249903,
+      "indxCmpnPctg": 0.0995361,
+      "symb": "F2NV34",
+      "desc": "FRANCONEVADADRN"
+    },
+    {
+      "indexTheoreticalQty": 0.10193790048667578,
+      "indxCmpnPctg": 0.0599232,
+      "symb": "HPQB34",
+      "desc": "HP COMPANY  DRN"
+    },
+    {
+      "indexTheoreticalQty": 0.12819010875008538,
+      "indxCmpnPctg": 0.0078209,
+      "symb": "M2PW34",
+      "desc": "MEDICAL P TRDRN"
+    },
+    {
+      "indexTheoreticalQty": 0.3011635418205042,
+      "indxCmpnPctg": 0.0243777,
+      "symb": "A1LB34",
+      "desc": "ALBEMARLE CODRN"
+    },
+    {
+      "indexTheoreticalQty": 0.12236710878102976,
+      "indxCmpnPctg": 0.1183644,
+      "symb": "N1DA34",
+      "desc": "NASDAQ INC  DRN"
+    },
+    {
+      "indexTheoreticalQty": 6.760013150329141,
+      "indxCmpnPctg": 0.7551625,
+      "symb": "UNHH34",
+      "desc": "UNITEDHEALTHDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.1307008777515524,
+      "indxCmpnPctg": 0.5340636,
+      "symb": "MRCK34",
+      "desc": "MERCK       DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.9327021592819078,
+      "indxCmpnPctg": 0.4690879,
+      "symb": "TMOS34",
+      "desc": "THERMFISCHERDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.753389982374052,
+      "indxCmpnPctg": 0.6753749,
+      "symb": "COCA34",
+      "desc": "COCA COLA   DRN"
+    },
+    {
+      "indexTheoreticalQty": 4.424315581217296,
+      "indxCmpnPctg": 3.5354708,
+      "symb": "TSMC34",
+      "desc": "TAIWANSMFAC DRN"
+    },
+    {
+      "indexTheoreticalQty": 1.1850920709194177,
+      "indxCmpnPctg": 0.2540084,
+      "symb": "P1LD34",
+      "desc": "PROLOGIS INCDRN"
+    },
+    {
+      "indexTheoreticalQty": 2.242633810706867,
+      "indxCmpnPctg": 0.5380648,
+      "symb": "SSFO34",
+      "desc": "SALESFOR INCDRN"
+    },
+    {
+      "indexTheoreticalQty": 35.107047188072784,
+      "indxCmpnPctg": 3.7875367,
+      "symb": "AVGO34",
+      "desc": "BROADCOM INCDRN"
+    },
+    {
+      "indexTheoreticalQty": 6.4757155966848075,
+      "indxCmpnPctg": 3.7238993,
+      "symb": "M1TA34",
+      "desc": "META PLAT   DRN"
+    },
+    {
+      "indexTheoreticalQty": 2.137864339786087,
+      "indxCmpnPctg": 0.3569876,
+      "symb": "DHER34",
+      "desc": "DANAHER CORPDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.11307418959643303,
+      "indxCmpnPctg": 0.7513228,
+      "symb": "GEOO34",
+      "desc": "GEAEROSPACE DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.6557517989455686,
+      "indxCmpnPctg": 0.4150161,
+      "symb": "SNEC34",
+      "desc": "SONY GROUP  DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.2669056256142291,
+      "indxCmpnPctg": 0.0380552,
+      "symb": "S2UI34",
+      "desc": "SUN COMMUN  DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.09953697503028641,
+      "indxCmpnPctg": 0.0158492,
+      "symb": "S2TA34",
+      "desc": "STAG INDUSTRDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.86634558479796,
+      "indxCmpnPctg": 0.2962999,
+      "symb": "DEEC34",
+      "desc": "DEERE CO    DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 2.694741621436049,
+      "indxCmpnPctg": 0.712916,
+      "symb": "TMCO34",
+      "desc": "TOYOTAMO    DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 1.198306549666105,
+      "indxCmpnPctg": 0.2117049,
+      "symb": "T1OW34",
+      "desc": "AMERICAN TOWDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.19498419296267916,
+      "indxCmpnPctg": 0.1299648,
+      "symb": "R1IN34",
+      "desc": "REALTY INCOMDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 1.96345725037715,
+      "indxCmpnPctg": 0.2647242,
+      "symb": "CMCS34",
+      "desc": "COMCAST     DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 1.1682312649419537,
+      "indxCmpnPctg": 0.2723717,
+      "symb": "B1TI34",
+      "desc": "BRITISH AMERDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 2.1112650734907694,
+      "indxCmpnPctg": 0.6231983,
+      "symb": "CSCO34",
+      "desc": "CISCO       DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.7159911268754249,
+      "indxCmpnPctg": 0.4818062,
+      "symb": "MUTC34",
+      "desc": "MICRON TECHNDRN ED"
+    },
+    {
+      "indexTheoreticalQty": 2.9320517742137935,
+      "indxCmpnPctg": 1.9936584,
+      "symb": "JPMC34",
+      "desc": "JPMORGAN    DRN ED"
+    },
+    {
+      "indexTheoreticalQty": 0.0987487156899645,
+      "indxCmpnPctg": 0.0041726,
+      "symb": "PAGS34",
+      "desc": "PAGSEGURO   DRN ED"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:03:33"
+  }
+}

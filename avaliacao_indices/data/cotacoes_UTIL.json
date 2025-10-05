@@ -1,0 +1,140 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "UTIL",
+    "description": "UTILITIES"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 2.0408428483027294,
+      "indxCmpnPctg": 0.7659636,
+      "symb": "ORVR3",
+      "desc": "ORIZON      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 16.518587691617725,
+      "indxCmpnPctg": 1.3838141,
+      "symb": "SRNA3",
+      "desc": "SERENA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 72.92299653365218,
+      "indxCmpnPctg": 8.1766469,
+      "symb": "ENEV3",
+      "desc": "ENEVA       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 15.09081303421107,
+      "indxCmpnPctg": 2.5355754,
+      "symb": "ISAE4",
+      "desc": "ISA ENERGIA PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 49.3204569715204,
+      "indxCmpnPctg": 3.9611079,
+      "symb": "CPLE3",
+      "desc": "COPEL       ON      N2"
+    },
+    {
+      "indexTheoreticalQty": 63.748123019057466,
+      "indxCmpnPctg": 5.4528101,
+      "symb": "CPLE6",
+      "desc": "COPEL       PNB     N2"
+    },
+    {
+      "indexTheoreticalQty": 12.13737260337151,
+      "indxCmpnPctg": 0.8307182,
+      "symb": "AURE3",
+      "desc": "AUREN       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 23.106139557406166,
+      "indxCmpnPctg": 19.9476306,
+      "symb": "SBSP3",
+      "desc": "SABESP      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.1577290518615335,
+      "indxCmpnPctg": 1.8585963,
+      "symb": "CPFE3",
+      "desc": "CPFL ENERGIAON      NM"
+    },
+    {
+      "indexTheoreticalQty": 47.52486336088327,
+      "indxCmpnPctg": 11.6860239,
+      "symb": "EQTL3",
+      "desc": "EQUATORIAL  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.4573957397994075,
+      "indxCmpnPctg": 1.4133557,
+      "symb": "NEOE3",
+      "desc": "NEOENERGIA  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.666535174396079,
+      "indxCmpnPctg": 1.8695449,
+      "symb": "SAPR11",
+      "desc": "SANEPAR     UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 14.220965538109509,
+      "indxCmpnPctg": 0.265277,
+      "symb": "AMBP3",
+      "desc": "AMBIPAR     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 12.410542326038447,
+      "indxCmpnPctg": 4.2007727,
+      "symb": "ENGI11",
+      "desc": "ENERGISA    UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 6.00647802050204,
+      "indxCmpnPctg": 1.2870855,
+      "symb": "ALUP11",
+      "desc": "ALUPAR      UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 7.625538446698801,
+      "indxCmpnPctg": 2.8604445,
+      "symb": "ELET6",
+      "desc": "ELETROBRAS  PNB     N1"
+    },
+    {
+      "indexTheoreticalQty": 55.66373775473974,
+      "indxCmpnPctg": 19.7852496,
+      "symb": "ELET3",
+      "desc": "ELETROBRAS  ON      N1"
+    },
+    {
+      "indexTheoreticalQty": 8.333409940454061,
+      "indxCmpnPctg": 2.0632578,
+      "symb": "TAEE11",
+      "desc": "TAESA       UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 9.730687929520425,
+      "indxCmpnPctg": 2.6785112,
+      "symb": "EGIE3",
+      "desc": "ENGIE BRASILON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.185766206307236,
+      "indxCmpnPctg": 1.6543325,
+      "symb": "CSMG3",
+      "desc": "COPASA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 72.59652828168811,
+      "indxCmpnPctg": 5.3232814,
+      "symb": "CMIG4",
+      "desc": "CEMIG       PN  EJ  N1"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:03:23"
+  }
+}

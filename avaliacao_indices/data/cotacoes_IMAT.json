@@ -1,0 +1,104 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "IMAT",
+    "description": "IMAT BASICOS"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 8.9854382391459,
+      "indxCmpnPctg": 0.6064847,
+      "symb": "CBAV3",
+      "desc": "CBA         ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 13.215333942997953,
+      "indxCmpnPctg": 1.3814623,
+      "symb": "DXCO3",
+      "desc": "DEXCO       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 11.685601382260415,
+      "indxCmpnPctg": 1.461029,
+      "symb": "BRKM5",
+      "desc": "BRASKEM     PNA     N1"
+    },
+    {
+      "indexTheoreticalQty": 11.030569003992106,
+      "indxCmpnPctg": 3.5587814,
+      "symb": "BRAP4",
+      "desc": "BRADESPAR   PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 72.36649085882748,
+      "indxCmpnPctg": 7.5376053,
+      "symb": "CMIN3",
+      "desc": "CSNMINERACAOON      N2"
+    },
+    {
+      "indexTheoreticalQty": 20.17565380239103,
+      "indxCmpnPctg": 1.6576589,
+      "symb": "USIM5",
+      "desc": "USIMINAS    PNA     N1"
+    },
+    {
+      "indexTheoreticalQty": 31.99537102268978,
+      "indxCmpnPctg": 4.9086654,
+      "symb": "CSNA3",
+      "desc": "SID NACIONALON"
+    },
+    {
+      "indexTheoreticalQty": 4.393597463976146,
+      "indxCmpnPctg": 0.7285762,
+      "symb": "RANI3",
+      "desc": "IRANI       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 34.48015630580192,
+      "indxCmpnPctg": 11.740154,
+      "symb": "KLBN11",
+      "desc": "KLABIN S/A  UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 56.08283598036106,
+      "indxCmpnPctg": 18.1044935,
+      "symb": "GGBR4",
+      "desc": "GERDAU      PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 27.380576165057068,
+      "indxCmpnPctg": 5.0706651,
+      "symb": "GOAU4",
+      "desc": "GERDAU MET  PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 18.85927071009884,
+      "indxCmpnPctg": 20.8136915,
+      "symb": "VALE3",
+      "desc": "VALE        ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.17857080932469,
+      "indxCmpnPctg": 2.9929324,
+      "symb": "UNIP6",
+      "desc": "UNIPAR      PNB"
+    },
+    {
+      "indexTheoreticalQty": 7.054505070702323,
+      "indxCmpnPctg": 0.8687483,
+      "symb": "FESA4",
+      "desc": "FERBASA     PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 19.713597800025042,
+      "indxCmpnPctg": 18.5690521,
+      "symb": "SUZB3",
+      "desc": "SUZANO S.A. ON  ATZ NM"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:03:17"
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "ICON",
+    "description": "ICONSUMO"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 1.660674896743455,
+      "indxCmpnPctg": 0.0766865,
+      "symb": "VVEO3",
+      "desc": "VIVEO       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 4.945266366990628,
+      "indxCmpnPctg": 0.5700592,
+      "symb": "ONCO3",
+      "desc": "ONCOCLINICASON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.829883236303363,
+      "indxCmpnPctg": 0.0780639,
+      "symb": "JALL3",
+      "desc": "JALLESMACHADON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.6080447868637304,
+      "indxCmpnPctg": 0.4158343,
+      "symb": "EVEN3",
+      "desc": "EVEN        ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.5474752215405893,
+      "indxCmpnPctg": 0.3801551,
+      "symb": "AGRO3",
+      "desc": "BRASILAGRO  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1635177635943332,
+      "indxCmpnPctg": 1.1155691,
+      "symb": "AZZA3",
+      "desc": "AZZAS 2154  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 4.296565264422498,
+      "indxCmpnPctg": 0.4805842,
+      "symb": "VAMO3",
+      "desc": "VAMOS       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.6834147106897297,
+      "indxCmpnPctg": 0.1238026,
+      "symb": "LJQQ3",
+      "desc": "QUERO-QUERO ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.48675403687158525,
+      "indxCmpnPctg": 0.1751563,
+      "symb": "SOJA3",
+      "desc": "BOA SAFRA   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.5849551365254202,
+      "indxCmpnPctg": 0.195173,
+      "symb": "PGMN3",
+      "desc": "PAGUE MENOS ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.4691247113178676,
+      "indxCmpnPctg": 0.2647723,
+      "symb": "PLPL3",
+      "desc": "PLANOEPLANO ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.9710597709545746,
+      "indxCmpnPctg": 0.4517366,
+      "symb": "TTEN3",
+      "desc": "3TENTOS     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.139137589194505,
+      "indxCmpnPctg": 0.3682208,
+      "symb": "ALPA4",
+      "desc": "ALPARGATAS  PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 1.1344965304601395,
+      "indxCmpnPctg": 0.4458857,
+      "symb": "MYPK3",
+      "desc": "IOCHP-MAXIONON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.881453286021086,
+      "indxCmpnPctg": 0.2389831,
+      "symb": "CVCB3",
+      "desc": "CVC BRASIL  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.0621747558524581,
+      "indxCmpnPctg": 1.0296656,
+      "symb": "VIVA3",
+      "desc": "VIVARA S.A. ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.214036294103198,
+      "indxCmpnPctg": 0.2438602,
+      "symb": "ANIM3",
+      "desc": "ANIMA       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1325972079381599,
+      "indxCmpnPctg": 0.4877548,
+      "symb": "SBFG3",
+      "desc": "GRUPO SBF   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 11.595129156804553,
+      "indxCmpnPctg": 3.6727126,
+      "symb": "ASAI3",
+      "desc": "ASSAI       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.208305528297467,
+      "indxCmpnPctg": 2.2970791,
+      "symb": "CYRE3",
+      "desc": "CYRELA REALTON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.4357617346505209,
+      "indxCmpnPctg": 0.1638125,
+      "symb": "SEER3",
+      "desc": "SER EDUCA   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.24881518363257,
+      "indxCmpnPctg": 0.9499945,
+      "symb": "YDUQ3",
+      "desc": "YDUQS PART  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.45593154821111836,
+      "indxCmpnPctg": 0.4304365,
+      "symb": "LEVE3",
+      "desc": "METAL LEVE  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.0507393213941938,
+      "indxCmpnPctg": 0.3126904,
+      "symb": "MOVI3",
+      "desc": "MOVIDA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1937766624120054,
+      "indxCmpnPctg": 0.6451795,
+      "symb": "CEAB3",
+      "desc": "CEA MODAS   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.7049652585638095,
+      "indxCmpnPctg": 0.9529452,
+      "symb": "SLCE3",
+      "desc": "SLC AGRICOLAON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.4497840041418655,
+      "indxCmpnPctg": 0.4321715,
+      "symb": "MDNE3",
+      "desc": "MOURA DUBEUXON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.09230709699141207,
+      "indxCmpnPctg": 0.0397838,
+      "symb": "AMOB3",
+      "desc": "AUTOMOB     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.09624172148496284,
+      "indxCmpnPctg": 0.0266654,
+      "symb": "GFSA3",
+      "desc": "GAFISA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.40620490674349,
+      "indxCmpnPctg": 0.1975351,
+      "symb": "QUAL3",
+      "desc": "QUALICORP   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.7378833767930146,
+      "indxCmpnPctg": 0.4986441,
+      "symb": "PCAR3",
+      "desc": "P.ACUCAR-CBDON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.240149744351821,
+      "indxCmpnPctg": 2.2338523,
+      "symb": "NATU3",
+      "desc": "NATURA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 11.088391462040502,
+      "indxCmpnPctg": 6.8347668,
+      "symb": "RADL3",
+      "desc": "RAIADROGASILON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.6128813454183369,
+      "indxCmpnPctg": 0.1991592,
+      "symb": "PNVL3",
+      "desc": "DIMED       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.5486490161751028,
+      "indxCmpnPctg": 0.3277919,
+      "symb": "PETZ3",
+      "desc": "PETZ        ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.7067003869310123,
+      "indxCmpnPctg": 0.2236029,
+      "symb": "GUAR3",
+      "desc": "GUARARAPES  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.6843819830703612,
+      "indxCmpnPctg": 3.2642565,
+      "symb": "HAPV3",
+      "desc": "HAPVIDA     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1050407961113926,
+      "indxCmpnPctg": 0.6440925,
+      "symb": "SMTO3",
+      "desc": "SAO MARTINHOON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.005525848242168,
+      "indxCmpnPctg": 0.8787888,
+      "symb": "TEND3",
+      "desc": "TENDA       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 36.85892023629225,
+      "indxCmpnPctg": 15.0412322,
+      "symb": "ABEV3",
+      "desc": "AMBEV S/A   ON"
+    },
+    {
+      "indexTheoreticalQty": 2.808420941532747,
+      "indxCmpnPctg": 1.5235817,
+      "symb": "DIRR3",
+      "desc": "DIRECIONAL  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.065205286180634,
+      "indxCmpnPctg": 0.9604072,
+      "symb": "MGLU3",
+      "desc": "MAGAZ LUIZA ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.8565445192165577,
+      "indxCmpnPctg": 2.110662,
+      "symb": "FLRY3",
+      "desc": "FLEURY      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.8277183196208191,
+      "indxCmpnPctg": 0.4586675,
+      "symb": "EZTC3",
+      "desc": "EZTEC       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.6401834264295749,
+      "indxCmpnPctg": 0.3148935,
+      "symb": "LAVV3",
+      "desc": "LAVVI       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.3115675651029792,
+      "indxCmpnPctg": 0.4048339,
+      "symb": "GRND3",
+      "desc": "GRENDENE    ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.7399219904985013,
+      "indxCmpnPctg": 0.8660672,
+      "symb": "BEEF3",
+      "desc": "MINERVA     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.2375823301198565,
+      "indxCmpnPctg": 0.798466,
+      "symb": "MRVE3",
+      "desc": "MRV         ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.8298172344813473,
+      "indxCmpnPctg": 0.1402199,
+      "symb": "CAML3",
+      "desc": "CAMIL       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.8199288799713543,
+      "indxCmpnPctg": 0.1012474,
+      "symb": "BHIA3",
+      "desc": "CASAS BAHIA ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 3.68325188434143,
+      "indxCmpnPctg": 3.192555,
+      "symb": "SMFT3",
+      "desc": "SMART FIT   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 15.617565508396323,
+      "indxCmpnPctg": 1.6881102,
+      "symb": "COGN3",
+      "desc": "COGNA ON    ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.7979618298115788,
+      "indxCmpnPctg": 0.530614,
+      "symb": "VULC3",
+      "desc": "VULCABRAS   ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.1752185984508547,
+      "indxCmpnPctg": 0.9754521,
+      "symb": "ODPV3",
+      "desc": "ODONTOPREV  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.5596123037492438,
+      "indxCmpnPctg": 0.545356,
+      "symb": "MDIA3",
+      "desc": "M.DIASBRANCOON      NM"
+    },
+    {
+      "indexTheoreticalQty": 6.107271125273929,
+      "indxCmpnPctg": 3.9420258,
+      "symb": "MBRF3",
+      "desc": "MARFRIG     ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 8.627400653251625,
+      "indxCmpnPctg": 4.3675918,
+      "symb": "LREN3",
+      "desc": "LOJAS RENNERON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 9.413166470964331,
+      "indxCmpnPctg": 13.3752711,
+      "symb": "RDOR3",
+      "desc": "REDE D OR   ON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 0.2559758072356565,
+      "indxCmpnPctg": 0.1173287,
+      "symb": "BLAU3",
+      "desc": "BLAU        ON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 3.9608324949669513,
+      "indxCmpnPctg": 0.9267081,
+      "symb": "GMAT3",
+      "desc": "GRUPO MATEUSON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 0.4270401798928026,
+      "indxCmpnPctg": 0.2455482,
+      "symb": "TFCO4",
+      "desc": "TRACK FIELD PN  EJ  N2"
+    },
+    {
+      "indexTheoreticalQty": 8.426316128469459,
+      "indxCmpnPctg": 11.1775319,
+      "symb": "RENT3",
+      "desc": "LOCALIZA    ON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 2.531416572608494,
+      "indxCmpnPctg": 1.9863574,
+      "symb": "HYPE3",
+      "desc": "HYPERA      ON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 2.4215167861198026,
+      "indxCmpnPctg": 0.5259707,
+      "symb": "JHSF3",
+      "desc": "JHSF PART   ON  ED  NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1652941638676273,
+      "indxCmpnPctg": 1.3153759,
+      "symb": "CURY3",
+      "desc": "CURY S/A    ON  ED  NM"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:02:50"
+  }
+}

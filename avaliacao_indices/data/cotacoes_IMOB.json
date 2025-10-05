@@ -1,0 +1,116 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "IMOB",
+    "description": "IMOBILIARIO"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 3.927371841141305,
+      "indxCmpnPctg": 2.4074456,
+      "symb": "EVEN3",
+      "desc": "EVEN        ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.1457561358143122,
+      "indxCmpnPctg": 1.5328823,
+      "symb": "PLPL3",
+      "desc": "PLANOEPLANO ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 4.452834562856827,
+      "indxCmpnPctg": 8.6255218,
+      "symb": "IGTI11",
+      "desc": "IGUATEMI S.AUNT     N1"
+    },
+    {
+      "indexTheoreticalQty": 5.3934050962519,
+      "indxCmpnPctg": 13.29879,
+      "symb": "CYRE3",
+      "desc": "CYRELA REALTON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.098519796769965,
+      "indxCmpnPctg": 2.5020287,
+      "symb": "MDNE3",
+      "desc": "MOURA DUBEUXON      NM"
+    },
+    {
+      "indexTheoreticalQty": 0.23505379327164092,
+      "indxCmpnPctg": 0.1543778,
+      "symb": "GFSA3",
+      "desc": "GAFISA      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.4558233291674294,
+      "indxCmpnPctg": 5.0876906,
+      "symb": "TEND3",
+      "desc": "TENDA       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.0663143077945272,
+      "indxCmpnPctg": 1.9894568,
+      "symb": "LOGG3",
+      "desc": "LOG COM PROPON      NM"
+    },
+    {
+      "indexTheoreticalQty": 6.859083412321616,
+      "indxCmpnPctg": 8.8206773,
+      "symb": "DIRR3",
+      "desc": "DIRECIONAL  ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.0215591303372573,
+      "indxCmpnPctg": 2.6554256,
+      "symb": "EZTC3",
+      "desc": "EZTEC       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.5635375225018107,
+      "indxCmpnPctg": 1.8230554,
+      "symb": "LAVV3",
+      "desc": "LAVVI       ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.907236030091302,
+      "indxCmpnPctg": 4.6226673,
+      "symb": "MRVE3",
+      "desc": "MRV         ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.2507696461375253,
+      "indxCmpnPctg": 0.54258,
+      "symb": "SYNE3",
+      "desc": "SYN PROP TECON      NM"
+    },
+    {
+      "indexTheoreticalQty": 9.82885482871867,
+      "indxCmpnPctg": 20.0992879,
+      "symb": "ALOS3",
+      "desc": "ALLOS       ON  ED  NM"
+    },
+    {
+      "indexTheoreticalQty": 6.6143698259349115,
+      "indxCmpnPctg": 15.1777563,
+      "symb": "MULT3",
+      "desc": "MULTIPLAN   ON  EJ  N2"
+    },
+    {
+      "indexTheoreticalQty": 5.914136792922436,
+      "indxCmpnPctg": 3.0450733,
+      "symb": "JHSF3",
+      "desc": "JHSF PART   ON  ED  NM"
+    },
+    {
+      "indexTheoreticalQty": 2.846029863848468,
+      "indxCmpnPctg": 7.6152832,
+      "symb": "CURY3",
+      "desc": "CURY S/A    ON  ED  NM"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:03:07"
+  }
+}

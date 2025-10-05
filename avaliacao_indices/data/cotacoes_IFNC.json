@@ -1,0 +1,110 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "IFNC",
+    "description": "IFINANCEIRO"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 10.133105093858525,
+      "indxCmpnPctg": 0.5027447,
+      "symb": "BPAN4",
+      "desc": "BANCO PAN   PN      N1"
+    },
+    {
+      "indexTheoreticalQty": 3.0644766499308447,
+      "indxCmpnPctg": 0.9392034,
+      "symb": "IRBR3",
+      "desc": "IRBBRASIL REON      NM"
+    },
+    {
+      "indexTheoreticalQty": 2.806353386295259,
+      "indxCmpnPctg": 0.4049171,
+      "symb": "ABCB4",
+      "desc": "ABC BRASIL  PN      N2"
+    },
+    {
+      "indexTheoreticalQty": 13.493303330650336,
+      "indxCmpnPctg": 2.466918,
+      "symb": "SANB11",
+      "desc": "SANTANDER BRUNT"
+    },
+    {
+      "indexTheoreticalQty": 22.467170608949846,
+      "indxCmpnPctg": 2.1298503,
+      "symb": "CXSE3",
+      "desc": "CAIXA SEGURION      NM"
+    },
+    {
+      "indexTheoreticalQty": 52.60294448147106,
+      "indxCmpnPctg": 15.7256583,
+      "symb": "BPAC11",
+      "desc": "BTGP BANCO  UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 106.43809123666134,
+      "indxCmpnPctg": 14.6569923,
+      "symb": "BBAS3",
+      "desc": "BRASIL      ON      NM"
+    },
+    {
+      "indexTheoreticalQty": 1.7688424764238293,
+      "indxCmpnPctg": 0.1996976,
+      "symb": "BRBI11",
+      "desc": "BR PARTNERS UNT     N2"
+    },
+    {
+      "indexTheoreticalQty": 23.07329023720037,
+      "indxCmpnPctg": 4.8301867,
+      "symb": "BBSE3",
+      "desc": "BBSEGURIDADEON      NM"
+    },
+    {
+      "indexTheoreticalQty": 7.584034586682224,
+      "indxCmpnPctg": 0.5797705,
+      "symb": "BRSR6",
+      "desc": "BANRISUL    PNB     N1"
+    },
+    {
+      "indexTheoreticalQty": 194.57960682393912,
+      "indxCmpnPctg": 15.810705,
+      "symb": "B3SA3",
+      "desc": "B3          ON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 6.77821259174187,
+      "indxCmpnPctg": 2.0958372,
+      "symb": "PSSA3",
+      "desc": "PORTO SEGUROON  EJ  NM"
+    },
+    {
+      "indexTheoreticalQty": 6.348858970159343,
+      "indxCmpnPctg": 1.3515763,
+      "symb": "ITUB3",
+      "desc": "ITAUUNIBANCOON  EJ  N1"
+    },
+    {
+      "indexTheoreticalQty": 75.68643590004115,
+      "indxCmpnPctg": 18.1672749,
+      "symb": "ITUB4",
+      "desc": "ITAUUNIBANCOPN  EJ  N1"
+    },
+    {
+      "indexTheoreticalQty": 42.90235458944316,
+      "indxCmpnPctg": 3.9937667,
+      "symb": "BBDC3",
+      "desc": "BRADESCO    ON  EJ  N1"
+    },
+    {
+      "indexTheoreticalQty": 149.28096328045692,
+      "indxCmpnPctg": 16.1449009,
+      "symb": "BBDC4",
+      "desc": "BRADESCO    PN  EJ  N1"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 15:03:02"
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "BizSts": {
+    "cd": "OK"
+  },
+  "Index": {
+    "symbol": "IFIX",
+    "description": "IND FDO IMOB"
+  },
+  "UnderlyingList": [
+    {
+      "indexTheoreticalQty": 2.333945727178883,
+      "indxCmpnPctg": 0.3095323,
+      "symb": "SARE11",
+      "desc": "FII SANT RENCI"
+    },
+    {
+      "indexTheoreticalQty": 0.11656086635417229,
+      "indxCmpnPctg": 0.2860153,
+      "symb": "FATN11",
+      "desc": "FII ATHENA ICI"
+    },
+    {
+      "indexTheoreticalQty": 0.1690125700063929,
+      "indxCmpnPctg": 0.3972711,
+      "symb": "RBRL11",
+      "desc": "FII RBR LOG CI"
+    },
+    {
+      "indexTheoreticalQty": 0.1181476351025894,
+      "indxCmpnPctg": 0.109253,
+      "symb": "BLMG11",
+      "desc": "FII BLUE LOGCI"
+    },
+    {
+      "indexTheoreticalQty": 0.7993360017923701,
+      "indxCmpnPctg": 0.1726568,
+      "symb": "AJFI11",
+      "desc": "FII AJ MALLSCI"
+    },
+    {
+      "indexTheoreticalQty": 0.6732716338959547,
+      "indxCmpnPctg": 0.8119037,
+      "symb": "BRCR11",
+      "desc": "FII BC FUND CI"
+    },
+    {
+      "indexTheoreticalQty": 0.3549803457860393,
+      "indxCmpnPctg": 0.2632008,
+      "symb": "DEVA11",
+      "desc": "FII DEVANT  CI"
+    },
+    {
+      "indexTheoreticalQty": 2.51536429071603,
+      "indxCmpnPctg": 0.6559243,
+      "symb": "BTCI11",
+      "desc": "FII BTG CRI CI"
+    },
+    {
+      "indexTheoreticalQty": 0.6683038479250577,
+      "indxCmpnPctg": 1.4902847,
+      "symb": "RECR11",
+      "desc": "FII REC RECECI"
+    },
+    {
+      "indexTheoreticalQty": 0.3078248471027713,
+      "indxCmpnPctg": 0.4554409,
+      "symb": "RBRP11",
+      "desc": "FII RBR PROPCI"
+    },
+    {
+      "indexTheoreticalQty": 0.5102712242962488,
+      "indxCmpnPctg": 0.1227825,
+      "symb": "SPXS11",
+      "desc": "FII SPX SYN CI"
+    },
+    {
+      "indexTheoreticalQty": 5.202712466339978,
+      "indxCmpnPctg": 1.2678998,
+      "symb": "BTHF11",
+      "desc": "FII BTHF    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.5581708091194859,
+      "indxCmpnPctg": 0.3568538,
+      "symb": "HCTR11",
+      "desc": "FII HECTARE CI"
+    },
+    {
+      "indexTheoreticalQty": 1.7135478080179973,
+      "indxCmpnPctg": 0.4252622,
+      "symb": "CCME11",
+      "desc": "FII CANUMA  CI"
+    },
+    {
+      "indexTheoreticalQty": 0.10986297900918694,
+      "indxCmpnPctg": 0.2699798,
+      "symb": "CLIN11",
+      "desc": "FII CLAVE INCI"
+    },
+    {
+      "indexTheoreticalQty": 0.9208527750248514,
+      "indxCmpnPctg": 1.5435705,
+      "symb": "IRDM11",
+      "desc": "FII IRIDIUM CI"
+    },
+    {
+      "indexTheoreticalQty": 0.3227451390410659,
+      "indxCmpnPctg": 0.8668978,
+      "symb": "RBRY11",
+      "desc": "FII RBR PCRICI"
+    },
+    {
+      "indexTheoreticalQty": 0.3805657123243454,
+      "indxCmpnPctg": 0.9325487,
+      "symb": "RBRR11",
+      "desc": "FII RBRHGRADCI"
+    },
+    {
+      "indexTheoreticalQty": 0.2597227616629094,
+      "indxCmpnPctg": 0.4642799,
+      "symb": "RVBI11",
+      "desc": "FII RVBI VBICI"
+    },
+    {
+      "indexTheoreticalQty": 3.6926610967508915,
+      "indxCmpnPctg": 0.9835883,
+      "symb": "VGIR11",
+      "desc": "FII VALREIIICI"
+    },
+    {
+      "indexTheoreticalQty": 0.428658926356764,
+      "indxCmpnPctg": 1.0848193,
+      "symb": "MCCI11",
+      "desc": "FII MAUA    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.29791872014579623,
+      "indxCmpnPctg": 0.6667614,
+      "symb": "VGIP11",
+      "desc": "FII VALORAIPCI"
+    },
+    {
+      "indexTheoreticalQty": 8.304201724874472,
+      "indxCmpnPctg": 1.7774454,
+      "symb": "CPTS11",
+      "desc": "FII CAPI SECCI"
+    },
+    {
+      "indexTheoreticalQty": 0.11444974940399572,
+      "indxCmpnPctg": 0.2197367,
+      "symb": "TOPP11",
+      "desc": "FII TOPP    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.7448104865956316,
+      "indxCmpnPctg": 0.1652555,
+      "symb": "RBRX11",
+      "desc": "FII RBR MULTCI"
+    },
+    {
+      "indexTheoreticalQty": 0.11514171918456888,
+      "indxCmpnPctg": 0.3025069,
+      "symb": "AFHI11",
+      "desc": "FII AFHI CRICI"
+    },
+    {
+      "indexTheoreticalQty": 0.10703926815173155,
+      "indxCmpnPctg": 0.2686112,
+      "symb": "RZAT11",
+      "desc": "FII ARCTIUM CI"
+    },
+    {
+      "indexTheoreticalQty": 0.22261634344231154,
+      "indxCmpnPctg": 0.5103757,
+      "symb": "RZAK11",
+      "desc": "FII RIZA AKNCI"
+    },
+    {
+      "indexTheoreticalQty": 2.8206253516170334,
+      "indxCmpnPctg": 0.700802,
+      "symb": "MCRE11",
+      "desc": "FII MAUA RE CI"
+    },
+    {
+      "indexTheoreticalQty": 1.093107806539753,
+      "indxCmpnPctg": 3.1768015,
+      "symb": "BTLG11",
+      "desc": "FII BTLG    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.10162020303582282,
+      "indxCmpnPctg": 0.2035776,
+      "symb": "SNFF11",
+      "desc": "FII SUNOFOFICI"
+    },
+    {
+      "indexTheoreticalQty": 0.968884116677153,
+      "indxCmpnPctg": 0.2323216,
+      "symb": "SNEL11",
+      "desc": "FII SUNO EL CI"
+    },
+    {
+      "indexTheoreticalQty": 0.10615359333798165,
+      "indxCmpnPctg": 0.2472017,
+      "symb": "SNCI11",
+      "desc": "FII SUNO CRICI"
+    },
+    {
+      "indexTheoreticalQty": 2.0143862069245597,
+      "indxCmpnPctg": 0.556848,
+      "symb": "CPSH11",
+      "desc": "FII CPSH    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.2934593846123232,
+      "indxCmpnPctg": 0.4313949,
+      "symb": "BROF11",
+      "desc": "FII BROF    CI"
+    },
+    {
+      "indexTheoreticalQty": 0.15121164866488165,
+      "indxCmpnPctg": 0.3401561,
+      "symb": "BTAL11",
+      "desc": "FII BTG AGROCI"
+    },
+    {
+      "indexTheoreticalQty": 0.18808761248927577,
+      "indxCmpnPctg": 0.4201629,
+      "symb": "BPML11",
+      "desc": "FII BTG SHOPCI"
+    },
+    {
+      "indexTheoreticalQty": 3.0902385193952377,
+      "indxCmpnPctg": 0.9113172,
+      "symb": "ALZR11",
+      "desc": "FII ALIANZA CI"
+    },
+    {
+      "indexTheoreticalQty": 0.2782798251596331,
+      "indxCmpnPctg": 0.6549648,
+      "symb": "PCIP11",
+      "desc": "FII PCIP PAXCI"
+    },
+    {
+      "indexTheoreticalQty": 0.5520297984702186,
+      "indxCmpnPctg": 0.6848495,
+      "symb": "GZIT11",
+      "desc": "FII GAZIT   CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 1.43359889452578,
+      "indxCmpnPctg": 4.2064514,
+      "symb": "XPML11",
+      "desc": "FII XP MALLSCI  ES"
+    },
+    {
+      "indexTheoreticalQty": 0.1222364693206478,
+      "indxCmpnPctg": 0.2482987,
+      "symb": "CACR11",
+      "desc": "CARTESIA FIICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.3533927176990095,
+      "indxCmpnPctg": 0.9942065,
+      "symb": "PMLL11",
+      "desc": "FII PMLL PAXCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.09399743987154777,
+      "indxCmpnPctg": 0.2203926,
+      "symb": "BCIA11",
+      "desc": "FII BCIA    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.7119748549070065,
+      "indxCmpnPctg": 1.9884706,
+      "symb": "KNHY11",
+      "desc": "FII KINEA HYCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5248872598163047,
+      "indxCmpnPctg": 0.9039222,
+      "symb": "JSRE11",
+      "desc": "FII JS REAL CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5956724978272773,
+      "indxCmpnPctg": 1.398653,
+      "symb": "TGAR11",
+      "desc": "FII TG ATIVOCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.3896874653252131,
+      "indxCmpnPctg": 1.0355845,
+      "symb": "HGCR11",
+      "desc": "FII HGCR PAXCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.10670880190580438,
+      "indxCmpnPctg": 0.2481364,
+      "symb": "TEPP11",
+      "desc": "FII TEL PROPCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.9487133669137016,
+      "indxCmpnPctg": 0.2314667,
+      "symb": "MANA11",
+      "desc": "FII MANATI  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 4.1632853693166485,
+      "indxCmpnPctg": 0.8817978,
+      "symb": "VGHF11",
+      "desc": "FII VALOR HECI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.15796665675294888,
+      "indxCmpnPctg": 0.3523905,
+      "symb": "ITRI11",
+      "desc": "CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.1506975367024798,
+      "indxCmpnPctg": 0.3287959,
+      "symb": "MFII11",
+      "desc": "FII MERITO ICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.3790541609792078,
+      "indxCmpnPctg": 0.9131484,
+      "symb": "VILG11",
+      "desc": "FII VINCI LGCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.39409329439271074,
+      "indxCmpnPctg": 0.8455087,
+      "symb": "VRTA11",
+      "desc": "FII FATOR VECI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.31997895332133364,
+      "indxCmpnPctg": 0.7840853,
+      "symb": "HSLG11",
+      "desc": "FII HSI LOG CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.09476015343968117,
+      "indxCmpnPctg": 0.1341835,
+      "symb": "RBFF11",
+      "desc": "FII RIOB FF CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.29869010292405224,
+      "indxCmpnPctg": 0.991742,
+      "symb": "HGRE11",
+      "desc": "FII HGRE PAXCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.2965702662144229,
+      "indxCmpnPctg": 0.2988879,
+      "symb": "URPR11",
+      "desc": "FII URCA RENCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.20540171850667202,
+      "indxCmpnPctg": 0.4399901,
+      "symb": "HABT11",
+      "desc": "FII HABIT IICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.30329598096566185,
+      "indxCmpnPctg": 0.6559687,
+      "symb": "GTWR11",
+      "desc": "FII G TOWERSCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 5.824799314445536,
+      "indxCmpnPctg": 0.9973999,
+      "symb": "HFOF11",
+      "desc": "FII HTOPFOF3CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 2.093406865981358,
+      "indxCmpnPctg": 0.2934461,
+      "symb": "VINO11",
+      "desc": "FII VINCI OFCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.712847841838886,
+      "indxCmpnPctg": 2.8782613,
+      "symb": "KNRI11",
+      "desc": "FII KINEA   CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.9423342941940412,
+      "indxCmpnPctg": 0.2109269,
+      "symb": "PORD11",
+      "desc": "FII POLO CRICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5118195502790786,
+      "indxCmpnPctg": 1.4797224,
+      "symb": "KNUQ11",
+      "desc": "FII KINEA UNCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.1219499304426305,
+      "indxCmpnPctg": 0.1750735,
+      "symb": "AIEC11",
+      "desc": "FII AUTONOMYCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 5.110597559347619,
+      "indxCmpnPctg": 1.2368719,
+      "symb": "KNSC11",
+      "desc": "FII KINEA SCCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.8539696420063227,
+      "indxCmpnPctg": 3.8294078,
+      "symb": "HGLG11",
+      "desc": "FII HGLG PAXCI  ERS"
+    },
+    {
+      "indexTheoreticalQty": 1.9593751906862904,
+      "indxCmpnPctg": 0.4056825,
+      "symb": "JSAF11",
+      "desc": "FII JS A FINCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.09749345682014371,
+      "indxCmpnPctg": 0.2457747,
+      "symb": "ICRI11",
+      "desc": "FII CI IPCA CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.9098879428969856,
+      "indxCmpnPctg": 0.2151204,
+      "symb": "KCRE11",
+      "desc": "FII KINEA CRCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.15816564419112744,
+      "indxCmpnPctg": 0.278267,
+      "symb": "BCRI11",
+      "desc": "FII BEES CRICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.9237749812521254,
+      "indxCmpnPctg": 0.2215052,
+      "symb": "CYCR11",
+      "desc": "FII CYRELA  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.21992881248030974,
+      "indxCmpnPctg": 0.5222438,
+      "symb": "XPCI11",
+      "desc": "FII XP CRED CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 1.1170403616297866,
+      "indxCmpnPctg": 0.2106521,
+      "symb": "KISU11",
+      "desc": "FII KILIMA  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.37414698365517385,
+      "indxCmpnPctg": 0.0834329,
+      "symb": "PMIS11",
+      "desc": "FII PMIS    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.9579428405371422,
+      "indxCmpnPctg": 0.2227294,
+      "symb": "LIFE11",
+      "desc": "FII LIFE    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 2.554390774693461,
+      "indxCmpnPctg": 7.4443238,
+      "symb": "KNCR11",
+      "desc": "FII KINEA RICI  ERS"
+    },
+    {
+      "indexTheoreticalQty": 0.37214341040491467,
+      "indxCmpnPctg": 0.7986245,
+      "symb": "VCJR11",
+      "desc": "FII VECTIS  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.12615937536245292,
+      "indxCmpnPctg": 0.2092849,
+      "symb": "PATL11",
+      "desc": "FII PATL VBICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5873332737319661,
+      "indxCmpnPctg": 2.0815906,
+      "symb": "HGRU11",
+      "desc": "FII HGRU PAXCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.4073913319528153,
+      "indxCmpnPctg": 1.2116634,
+      "symb": "LVBI11",
+      "desc": "FII LVBI VBICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.07299560857092019,
+      "indxCmpnPctg": 0.2825001,
+      "symb": "HTMX11",
+      "desc": "FII HOTEL MXCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5595077883529128,
+      "indxCmpnPctg": 0.1260199,
+      "symb": "JSCR11",
+      "desc": "FII JSCR    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.08220291631308527,
+      "indxCmpnPctg": 0.1731885,
+      "symb": "OUJP11",
+      "desc": "FII OURI JPPCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.7879612145968989,
+      "indxCmpnPctg": 2.2015743,
+      "symb": "XPLG11",
+      "desc": "FII XP LOG  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 1.094447085767702,
+      "indxCmpnPctg": 0.1916929,
+      "symb": "XPSF11",
+      "desc": "FII XP SELECCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.2432686513995413,
+      "indxCmpnPctg": 0.4696477,
+      "symb": "KORE11",
+      "desc": "FII KORE    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.40199690963536,
+      "indxCmpnPctg": 1.2898742,
+      "symb": "BRCO11",
+      "desc": "FII BRESCO  CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 2.505249925793457,
+      "indxCmpnPctg": 0.4843575,
+      "symb": "BBIG11",
+      "desc": "FII BBIG    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 11.053250412892869,
+      "indxCmpnPctg": 2.9627327,
+      "symb": "MXRF11",
+      "desc": "FII MAXI RENCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.7813000260656104,
+      "indxCmpnPctg": 0.1925887,
+      "symb": "WHGR11",
+      "desc": "FII WHG REALCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.7286342207254932,
+      "indxCmpnPctg": 2.2272448,
+      "symb": "VISC11",
+      "desc": "FII VINCI SCCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.49698167902361134,
+      "indxCmpnPctg": 1.2984678,
+      "symb": "KNHF11",
+      "desc": "CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.47647090919083224,
+      "indxCmpnPctg": 1.215417,
+      "symb": "RZTR11",
+      "desc": "FII RIZA TX CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.40236483293493647,
+      "indxCmpnPctg": 1.0528378,
+      "symb": "TVRI11",
+      "desc": "FII TIVIO RICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.8851626479367029,
+      "indxCmpnPctg": 0.210513,
+      "symb": "VGRI11",
+      "desc": "FII VGRI    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 1.1871824857877866,
+      "indxCmpnPctg": 0.2278655,
+      "symb": "VRTM11",
+      "desc": "FII VRTM    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5238673007069823,
+      "indxCmpnPctg": 0.0960063,
+      "symb": "ARRI11",
+      "desc": "FII ATRIO   CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.06385290287270079,
+      "indxCmpnPctg": 0.1384941,
+      "symb": "HSAF11",
+      "desc": "FII HSI CRI CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.056178907962307616,
+      "indxCmpnPctg": 0.0969987,
+      "symb": "KIVO11",
+      "desc": "CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 2.0239493314017274,
+      "indxCmpnPctg": 4.9436854,
+      "symb": "KNIP11",
+      "desc": "FII KINEA IPCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.6857033570357609,
+      "indxCmpnPctg": 1.4724875,
+      "symb": "PVBI11",
+      "desc": "FII PVBI VBICI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.4602427038839534,
+      "indxCmpnPctg": 0.0985111,
+      "symb": "AZPL11",
+      "desc": "FII AZPL    CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 3.2637935785832184,
+      "indxCmpnPctg": 1.8400714,
+      "symb": "HGBS11",
+      "desc": "FII HEDGEBS CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.19560295832695884,
+      "indxCmpnPctg": 0.3393158,
+      "symb": "TRBL11",
+      "desc": "FII SDI LOG CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.09328108003917195,
+      "indxCmpnPctg": 0.3301835,
+      "symb": "RCRB11",
+      "desc": "FII RIOB RC CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 3.726957199686527,
+      "indxCmpnPctg": 0.9311997,
+      "symb": "GARE11",
+      "desc": "FII GUARDIANCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.5391079995745021,
+      "indxCmpnPctg": 1.2653857,
+      "symb": "HSML11",
+      "desc": "FII HSI MALLCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 3.9464632933933657,
+      "indxCmpnPctg": 1.0246912,
+      "symb": "RBVA11",
+      "desc": "FII RIOB VA CI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.17729078106019983,
+      "indxCmpnPctg": 0.3883554,
+      "symb": "KFOF11",
+      "desc": "FII KINEAFOFCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 3.853265897770275,
+      "indxCmpnPctg": 1.0748827,
+      "symb": "GGRC11",
+      "desc": "FII GGRCOVEPCI  ER"
+    },
+    {
+      "indexTheoreticalQty": 0.8212568704646538,
+      "indxCmpnPctg": 2.2580675,
+      "symb": "TRXF11",
+      "desc": "FII TRX REALCI  ERS"
+    }
+  ],
+  "Msg": {
+    "dtTm": "2025-10-05 14:57:08"
+  }
+}
