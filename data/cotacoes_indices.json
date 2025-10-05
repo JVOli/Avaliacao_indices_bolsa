@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "symbol": "IBOV",
+      "contentId": "8A828D29514A326701518DA5AE3F477A",
+      "description": "IBOV",
+      "id": "8A828D29514A326701518DA5AE3D4779",
+      "position": {
+        "rawValue": 0,
+        "value": "0"
+      },
+      "category": "Amplos"
+    },
+    {
+      "symbol": "IBXX",
+      "contentId": "8A828D29514A326701518DA61437482E",
+      "description": "IBXX",
+      "id": "8A828D29514A326701518DA61435482D",
+      "position": {
+        "rawValue": 1,
+        "value": "1"
+      },
+      "category": "Amplos"
+    },
+    {
+      "symbol": "IBXL",
+      "contentId": "8A828D29514A326701518DA662CF4A95",
+      "description": "IBXL",
+      "id": "8A828D29514A326701518DA662CB4A94",
+      "position": {
+        "rawValue": 2,
+        "value": "2"
+      },
+      "category": "Amplos"
+    },
+    {
+      "symbol": "IBRA",
+      "contentId": "8A828D29514A326701518DA6BCE34D01",
+      "description": "IBRA",
+      "id": "8A828D29514A326701518DA6BCDE4D00",
+      "position": {
+        "rawValue": 3,
+        "value": "3"
+      },
+      "category": "Amplos"
+    },
+    {
+      "symbol": "IGCX",
+      "contentId": "8A828D29514A326701518DA74C054F82",
+      "description": "IGCX",
+      "id": "8A828D29514A326701518DA74C034F81",
+      "position": {
+        "rawValue": 10,
+        "value": "10"
+      },
+      "category": "Governança"
+    },
+    {
+      "symbol": "ITAG",
+      "contentId": "8A828D29514A326701518DA78D274FBA",
+      "description": "ITAG",
+      "id": "8A828D29514A326701518DA78D254FB9",
+      "position": {
+        "rawValue": 11,
+        "value": "11"
+      },
+      "category": "Governança"
+    },
+    {
+      "symbol": "IGNM",
+      "contentId": "8A828D29514A326701518DA844285544",
+      "description": "IGNM",
+      "id": "8A828D29514A326701518DA844265543",
+      "position": {
+        "rawValue": 12,
+        "value": "12"
+      },
+      "category": "Governança"
+    },
+    {
+      "symbol": "IGCT",
+      "contentId": "8A828D29514A326701518DA88316557C",
+      "description": "ICGT",
+      "id": "8A828D29514A326701518DA88315557B",
+      "position": {
+        "rawValue": 13,
+        "value": "13"
+      },
+      "category": "Governança"
+    },
+    {
+      "symbol": "IDIV",
+      "contentId": "8A828D29514A326701518DA8EAEF59EE",
+      "description": "IDIV",
+      "id": "8A828D29514A326701518DA8EAEE59ED",
+      "position": {
+        "rawValue": 20,
+        "value": "20"
+      },
+      "category": "Segmento"
+    },
+    {
+      "symbol": "MLCX",
+      "contentId": "8A828D29514A326701518DA94CA75A26",
+      "description": "MLCX",
+      "id": "8A828D29514A326701518DA94CA25A25",
+      "position": {
+        "rawValue": 21,
+        "value": "21"
+      },
+      "category": "Segmento"
+    },
+    {
+      "symbol": "SMLL",
+      "contentId": "8A828D29514A326701518DA97FD25A75",
+      "description": "SMLL",
+      "id": "8A828D29514A326701518DA97FD15A74",
+      "position": {
+        "rawValue": 22,
+        "value": "22"
+      },
+      "category": "Segmento"
+    },
+    {
+      "symbol": "IVBX",
+      "contentId": "8A828D29514A326701518DA9ECBA5AAD",
+      "description": "IVBX2",
+      "id": "8A828D29514A326701518DA9ECB45AAC",
+      "position": {
+        "rawValue": 23,
+        "value": "23"
+      },
+      "category": "Segmento"
+    },
+    {
+      "symbol": "ICO2",
+      "contentId": "8A828D29514A326701518DAA6BE35D14",
+      "description": "ICO2",
+      "id": "8A828D29514A326701518DAA6BE25D13",
+      "position": {
+        "rawValue": 30,
+        "value": "30"
+      },
+      "category": "Sustentabilidade"
+    },
+    {
+      "symbol": "ISEE",
+      "contentId": "8A828D29514A326701518DAAED565F92",
+      "description": "ISEE",
+      "id": "8A828D29514A326701518DAAED555F91",
+      "position": {
+        "rawValue": 31,
+        "value": "31"
+      },
+      "category": "Sustentabilidade"
+    },
+    {
+      "symbol": "ICON",
+      "contentId": "8A828D29514A326701518DAB9D0C6433",
+      "description": "ICON",
+      "id": "8A828D29514A326701518DAB9D0A6432",
+      "position": {
+        "rawValue": 40,
+        "value": "40"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "IEEX",
+      "contentId": "8A828D29514A326701518DAC1DDB66B1",
+      "description": "IEEX",
+      "id": "8A828D29514A326701518DAC1DDA66B0",
+      "position": {
+        "rawValue": 41,
+        "value": "41"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "IFNC",
+      "contentId": "8A828D29514A326701518DAC7EE86700",
+      "description": "IFNC",
+      "id": "8A828D29514A326701518DAC7EE766FF",
+      "position": {
+        "rawValue": 42,
+        "value": "42"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "IMOB",
+      "contentId": "8A828D29514A326701518DACBBA76967",
+      "description": "IMOB",
+      "id": "8A828D29514A326701518DACBBA36966",
+      "position": {
+        "rawValue": 43,
+        "value": "43"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "INDX",
+      "contentId": "8A828D29514A326701518DACFB74699F",
+      "description": "INDX",
+      "id": "8A828D29514A326701518DACFB6F699E",
+      "position": {
+        "rawValue": 44,
+        "value": "44"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "IMAT",
+      "contentId": "8A828D29514A326701518DAD5E8A6C45",
+      "description": "IMAT",
+      "id": "8A828D29514A326701518DAD5E886C44",
+      "position": {
+        "rawValue": 45,
+        "value": "45"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "UTIL",
+      "contentId": "8A828D29514A326701518DAD98EC6C7D",
+      "description": "UTIL",
+      "id": "8A828D29514A326701518DAD98E86C7C",
+      "position": {
+        "rawValue": 46,
+        "value": "46"
+      },
+      "category": "Setoriais"
+    },
+    {
+      "symbol": "IFIX",
+      "contentId": "8A828D29514A326701518DADEE266CE0",
+      "description": "IFIX",
+      "id": "8A828D29514A326701518DADEE226CDF",
+      "position": {
+        "rawValue": 50,
+        "value": "50"
+      },
+      "category": "Outros"
+    },
+    {
+      "symbol": "BDRX",
+      "contentId": "8A828D29514A326701518DB0180A7659",
+      "description": "BDRX",
+      "id": "8A828D29514A326701518DB018057658",
+      "position": {
+        "rawValue": 51,
+        "value": "51"
+      },
+      "category": "Outros"
+    }
+  ],
+  "totalCount": 23
+}
