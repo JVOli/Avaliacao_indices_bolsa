@@ -1,0 +1,28 @@
+{
+    "rows": [
+        {
+            "name": "amplos",
+            "symbols": ["IBOV", "IBXX", "IBXL", "IBRA"]
+        },
+        {
+            "name": "capitalizacao",
+            "symbols": ["MLCX", "SMLL", "IVBX"]
+        },
+        {
+            "name": "governanca_dividendos",
+            "symbols": ["IGCX", "ITAG", "IGNM", "IGCT", "IDIV"]
+        },
+        {
+            "name": "tematicos_esg",
+            "symbols": ["ICO2", "ISEE"]
+        },
+        {
+            "name": "setoriais",
+            "symbols": ["ICON", "IEEX", "IFNC", "IMOB", "INDX", "IMAT", "UTIL"]
+        },
+        {
+            "name": "alternativos",
+            "symbols": ["IFIX", "BDRX"]
+        }
+    ]
+}
