@@ -41,7 +41,6 @@ def load_index_price_series(symbol: str) -> pd.DataFrame:
     if not csv_path.exists():
         return pd.DataFrame()
     df = pd.read_csv(csv_path, parse_dates=["Date"])  # index será setado abaixo
-    print(df)
     df.columns = df.columns.str.lower()
     df = df.set_index("date").sort_index()
     if "close" not in df.columns and "adj_close" in df.columns:

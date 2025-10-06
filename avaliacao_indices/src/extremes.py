@@ -61,3 +61,25 @@ def event_study_after_extreme(r: pd.Series, q: float = 0.99, horizons: Iterable[
     return pd.DataFrame(out_rows)
 
 
+def wealth_curves_with_extremes(r: pd.Series, n: int) -> pd.DataFrame:
+    """
+    Gera curvas de riqueza comparando base vs excluir (zerar retorno em) top-N melhores e piores dias.
+    Mantém o eixo temporal original (dias removidos recebem retorno 0).
+    """
+    if r.empty:
+        return pd.DataFrame()
+    n = max(0, min(int(n), len(r)))
+    base = (1 + r).cumprod().rename("base")
+    if n == 0:
+        return base.to_frame()
+    idx_best = r.nlargest(n).index
+    idx_worst = r.nsmallest(n).index
+    rb = r.copy()
+    rb.loc[idx_best] = 0.0
+    rw = r.copy()
+    rw.loc[idx_worst] = 0.0
+    wealth_best = (1 + rb).cumprod().rename("remove_best")
+    wealth_worst = (1 + rw).cumprod().rename("remove_worst")
+    return pd.concat([base, wealth_best, wealth_worst], axis=1)
+
+
