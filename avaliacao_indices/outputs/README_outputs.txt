@@ -1,0 +1,1 @@
+Sem séries históricas de preços. Adicione CSVs em avaliacao_indices/data com colunas date, close.

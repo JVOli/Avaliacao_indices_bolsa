@@ -1,0 +1,136 @@
+{
+  "amplos": {
+    "symbols": [
+      "IBOV",
+      "IBXX",
+      "IBXL",
+      "IBRA"
+    ],
+    "metadata": {
+      "IBOV": {
+        "num_constituents": 82
+      },
+      "IBXX": {
+        "num_constituents": 98
+      },
+      "IBXL": {
+        "num_constituents": 49
+      },
+      "IBRA": {
+        "num_constituents": 162
+      }
+    },
+    "summaries": {}
+  },
+  "capitalizacao": {
+    "symbols": [
+      "MLCX",
+      "SMLL",
+      "IVBX"
+    ],
+    "metadata": {
+      "MLCX": {
+        "num_constituents": 50
+      },
+      "SMLL": {
+        "num_constituents": 113
+      },
+      "IVBX": {
+        "num_constituents": 49
+      }
+    },
+    "summaries": {}
+  },
+  "governanca_dividendos": {
+    "symbols": [
+      "IGCX",
+      "ITAG",
+      "IGNM",
+      "IGCT",
+      "IDIV"
+    ],
+    "metadata": {
+      "IGCX": {
+        "num_constituents": 240
+      },
+      "ITAG": {
+        "num_constituents": 232
+      },
+      "IGNM": {
+        "num_constituents": 174
+      },
+      "IGCT": {
+        "num_constituents": 155
+      },
+      "IDIV": {
+        "num_constituents": 50
+      }
+    },
+    "summaries": {}
+  },
+  "tematicos_esg": {
+    "symbols": [
+      "ICO2",
+      "ISEE"
+    ],
+    "metadata": {
+      "ICO2": {
+        "num_constituents": 60
+      },
+      "ISEE": {
+        "num_constituents": 80
+      }
+    },
+    "summaries": {}
+  },
+  "setoriais": {
+    "symbols": [
+      "ICON",
+      "IEEX",
+      "IFNC",
+      "IMOB",
+      "INDX",
+      "IMAT",
+      "UTIL"
+    ],
+    "metadata": {
+      "ICON": {
+        "num_constituents": 65
+      },
+      "IEEX": {
+        "num_constituents": 15
+      },
+      "IFNC": {
+        "num_constituents": 16
+      },
+      "IMOB": {
+        "num_constituents": 17
+      },
+      "INDX": {
+        "num_constituents": 46
+      },
+      "IMAT": {
+        "num_constituents": 15
+      },
+      "UTIL": {
+        "num_constituents": 21
+      }
+    },
+    "summaries": {}
+  },
+  "alternativos": {
+    "symbols": [
+      "IFIX",
+      "BDRX"
+    ],
+    "metadata": {
+      "IFIX": {
+        "num_constituents": 114
+      },
+      "BDRX": {
+        "num_constituents": 146
+      }
+    },
+    "summaries": {}
+  }
+}
