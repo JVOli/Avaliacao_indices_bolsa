@@ -33,11 +33,22 @@ def load_index_composition(symbol: str) -> List[Dict]:
 
 def load_index_price_series(symbol: str) -> pd.DataFrame:
     """
-    Placeholder para carregar séries de preços/índices caso existam arquivos com histórico.
-    No momento, os arquivos presentes contêm composição teórica atual. Esta função retorna
-    um DataFrame vazio até que uma fonte de históricos seja definida.
+    Carrega a série de preços do símbolo a partir de CSV salvo em data/prices/{SYMBOL}.csv
+    Espera colunas: date, close (ou adj_close). Retorna DataFrame com coluna 'close'.
     """
-    return pd.DataFrame()
+    paths = get_paths()
+    csv_path = paths.data_dir / "prices" / f"{symbol.upper()}.csv"
+    if not csv_path.exists():
+        return pd.DataFrame()
+    df = pd.read_csv(csv_path, parse_dates=["Date"])  # index será setado abaixo
+    print(df)
+    df.columns = df.columns.str.lower()
+    df = df.set_index("date").sort_index()
+    if "close" not in df.columns and "adj_close" in df.columns:
+        df["close"] = df["adj_close"]
+    if "close" not in df.columns:
+        return pd.DataFrame()
+    return df[["close"]]
 
 
 def load_cdi_series() -> pd.Series:
@@ -48,16 +59,16 @@ def load_cdi_series() -> pd.Series:
 
 
 def load_prices_for_symbols(symbols: Iterable[str]) -> PriceBundle:
-    # Stub de agregação; quando históricos forem adicionados, montar DataFrame com colunas por símbolo
     frames: List[pd.Series] = []
     metadata: Dict[str, Dict] = {}
     for sym in symbols:
         comp = load_index_composition(sym)
         metadata[sym] = {"num_constituents": len(comp)}
-    if frames:
-        prices = pd.concat(frames, axis=1)
-    else:
-        prices = pd.DataFrame()
+        df = load_index_price_series(sym)
+        if not df.empty:
+            s = df["close"].rename(sym.upper())
+            frames.append(s)
+    prices = pd.concat(frames, axis=1) if frames else pd.DataFrame()
     return PriceBundle(prices=prices, metadata=metadata)
 
 

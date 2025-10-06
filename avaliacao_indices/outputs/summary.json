@@ -20,7 +20,40 @@
         "num_constituents": 162
       }
     },
-    "summaries": {}
+    "summaries": {
+      "IBOV": {
+        "annual_return": 0.08856775192381683,
+        "annual_vol": 0.27084503421526035,
+        "sharpe": 0.4491302005839695,
+        "sortino": 0.6287001440631995,
+        "calmar": 0.1477073503512373,
+        "max_drawdown": -0.5996164152508943
+      },
+      "IBXX": {
+        "annual_return": 0.12357623863337719,
+        "annual_vol": 0.2522130605547747,
+        "sharpe": 0.5885249753132274,
+        "sortino": 0.8087162926241748,
+        "calmar": 0.20481523872197335,
+        "max_drawdown": -0.6033547083922104
+      },
+      "IBXL": {
+        "annual_return": 0.13019654703054595,
+        "annual_vol": 0.2592812203547558,
+        "sharpe": 0.6021028720715086,
+        "sortino": 0.8219593951973785,
+        "calmar": 0.21150967429928655,
+        "max_drawdown": -0.6155583543016458
+      },
+      "IBRA": {
+        "annual_return": 0.08183546240014739,
+        "annual_vol": 0.22302690259629732,
+        "sharpe": 0.46509407895822746,
+        "sortino": 0.6168538726964008,
+        "calmar": 0.1746550820194803,
+        "max_drawdown": -0.468554716266543
+      }
+    }
   },
   "capitalizacao": {
     "symbols": [
@@ -39,7 +72,32 @@
         "num_constituents": 49
       }
     },
-    "summaries": {}
+    "summaries": {
+      "MLCX": {
+        "annual_return": 0.10651359942073624,
+        "annual_vol": 0.2547871002104383,
+        "sharpe": 0.5250484126076896,
+        "sortino": 0.7073073334157735,
+        "calmar": 0.17779460935887165,
+        "max_drawdown": -0.5990822770432966
+      },
+      "SMLL": {
+        "annual_return": 0.076926381772912,
+        "annual_vol": 0.24492986060434727,
+        "sharpe": 0.42617462543174367,
+        "sortino": 0.5417262885553477,
+        "calmar": 0.11938919219061983,
+        "max_drawdown": -0.6443328777205342
+      },
+      "IVBX": {
+        "annual_return": 0.12261631987271637,
+        "annual_vol": 0.23673035110985208,
+        "sharpe": 0.6076425212959635,
+        "sortino": 0.816162387792227,
+        "calmar": 0.22564815151006004,
+        "max_drawdown": -0.5433960750493885
+      }
+    }
   },
   "governanca_dividendos": {
     "symbols": [
@@ -66,7 +124,48 @@
         "num_constituents": 50
       }
     },
-    "summaries": {}
+    "summaries": {
+      "IGCX": {
+        "annual_return": 0.13902117002585257,
+        "annual_vol": 0.2428334428259901,
+        "sharpe": 0.6579829897116052,
+        "sortino": 0.8925197807341861,
+        "calmar": 0.23133155907054218,
+        "max_drawdown": -0.6009606755966206
+      },
+      "ITAG": {
+        "annual_return": 0.122418328610014,
+        "annual_vol": 0.24699438651127809,
+        "sharpe": 0.5914635599261987,
+        "sortino": 0.7963226511072257,
+        "calmar": 0.2011746738518338,
+        "max_drawdown": -0.6085175945167718
+      },
+      "IGNM": {
+        "annual_return": NaN,
+        "annual_vol": NaN,
+        "sharpe": NaN,
+        "sortino": Infinity,
+        "calmar": NaN,
+        "max_drawdown": -1.0
+      },
+      "IGCT": {
+        "annual_return": 0.07728596527949727,
+        "annual_vol": 0.2210192230171187,
+        "sharpe": 0.44821862606352847,
+        "sortino": 0.594388755414323,
+        "calmar": 0.16310236268257675,
+        "max_drawdown": -0.4738494526281517
+      },
+      "IDIV": {
+        "annual_return": 0.10324542994896313,
+        "annual_vol": 0.21649478709375328,
+        "sharpe": 0.5627381787369617,
+        "sortino": 0.7634304984204233,
+        "calmar": 0.1801482535863206,
+        "max_drawdown": -0.5731136877188299
+      }
+    }
   },
   "tematicos_esg": {
     "symbols": [
@@ -81,7 +180,24 @@
         "num_constituents": 80
       }
     },
-    "summaries": {}
+    "summaries": {
+      "ICO2": {
+        "annual_return": 0.07078203122806404,
+        "annual_vol": 0.23055798153750842,
+        "sharpe": 0.4125611946858277,
+        "sortino": 0.5643838232795525,
+        "calmar": 0.1543773340885497,
+        "max_drawdown": -0.4585001525383512
+      },
+      "ISEE": {
+        "annual_return": 0.07093412211749728,
+        "annual_vol": 0.2444475767211799,
+        "sharpe": 0.40293869884500705,
+        "sortino": 0.5482962078190893,
+        "calmar": 0.12412215957338557,
+        "max_drawdown": -0.5714863676341244
+      }
+    }
   },
   "setoriais": {
     "symbols": [
@@ -116,7 +232,64 @@
         "num_constituents": 21
       }
     },
-    "summaries": {}
+    "summaries": {
+      "ICON": {
+        "annual_return": 0.08920180172124192,
+        "annual_vol": 0.2252024180106481,
+        "sharpe": 0.4929923821059433,
+        "sortino": 0.6582409623068398,
+        "calmar": 0.15082554121903463,
+        "max_drawdown": -0.5914237137839913
+      },
+      "IEEX": {
+        "annual_return": 0.1434172991511553,
+        "annual_vol": 0.23957726936740223,
+        "sharpe": 0.6795656742377132,
+        "sortino": 0.952674559195255,
+        "calmar": 0.26808675521216546,
+        "max_drawdown": -0.534966000232477
+      },
+      "IFNC": {
+        "annual_return": 0.1455352150993121,
+        "annual_vol": 0.3038236649274315,
+        "sharpe": 0.5983545555883393,
+        "sortino": 0.8788260535398518,
+        "calmar": 0.2215307464305009,
+        "max_drawdown": -0.6569526688475711
+      },
+      "IMOB": {
+        "annual_return": 0.00927959665871092,
+        "annual_vol": 0.36732559145527677,
+        "sharpe": 0.291182037395703,
+        "sortino": 0.31568692122343933,
+        "calmar": 0.009559180924533842,
+        "max_drawdown": -0.9707522780424248
+      },
+      "INDX": {
+        "annual_return": 0.07962920780508398,
+        "annual_vol": 0.23345583804432987,
+        "sharpe": 0.4457718809836812,
+        "sortino": 0.5792892646794197,
+        "calmar": 0.1248629055188688,
+        "max_drawdown": -0.6377330999481725
+      },
+      "IMAT": {
+        "annual_return": 0.07114479012110597,
+        "annual_vol": 0.2763037051700838,
+        "sharpe": 0.38739997101461265,
+        "sortino": 0.5683106558393818,
+        "calmar": 0.14395291489669748,
+        "max_drawdown": -0.4942226433703021
+      },
+      "UTIL": {
+        "annual_return": 0.12905254119391474,
+        "annual_vol": 0.22372358379210383,
+        "sharpe": 0.6552690101188897,
+        "sortino": 0.8751670160588877,
+        "calmar": 0.3072209256284395,
+        "max_drawdown": -0.4200642938951171
+      }
+    }
   },
   "alternativos": {
     "symbols": [
@@ -131,6 +304,23 @@
         "num_constituents": 146
       }
     },
-    "summaries": {}
+    "summaries": {
+      "IFIX": {
+        "annual_return": 0.09155136040627632,
+        "annual_vol": 0.07898354031225778,
+        "sharpe": 1.1496502757045564,
+        "sortino": 1.137378552928755,
+        "calmar": 0.2746760299082762,
+        "max_drawdown": -0.33330669748229746
+      },
+      "BDRX": {
+        "annual_return": 0.245574439382376,
+        "annual_vol": 0.2226861469269567,
+        "sharpe": 1.0969595736124196,
+        "sortino": 1.4890116752689884,
+        "calmar": 0.69113232782366,
+        "max_drawdown": -0.3553218819262546
+      }
+    }
   }
 }

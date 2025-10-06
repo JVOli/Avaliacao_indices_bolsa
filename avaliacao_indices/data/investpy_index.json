@@ -1,0 +1,27 @@
+{
+    "traducao": {
+      "IBOV": "Bovespa",
+      "IBRA": "Brazil broad-Based",
+      "IBXX": "Brazil Index",
+      "IBXL": "Brazil 50",
+      "MLCX": "Mid-Large Cap Index",
+      "SMLL": "Small Cap Index",
+      "IVBX": "IVBX",
+      "IGCX": "IGCX",
+      "ITAG": "Tag Along",
+      "IGNM": "Corporate Governance IGCNM",
+      "IGCT": "Corporate Gov Trade",
+      "IDIV": "Bovespa Dividend",
+      "ICO2": "Carbon Efficient",
+      "ISEE": "Corporate Sustainability",
+      "ICON": "Consumption",
+      "IEEX": "Electrical Energy",
+      "IFNC": "Financials",
+      "IMOB": "Real Estate",
+      "INDX": "Industrial Sector",
+      "IMAT": "Basic Materials",
+      "UTIL": "Public Utilities",
+      "IFIX": "BM&FBOVESPA Real Estate IFIX",
+      "BDRX": "BM&FBOVESPA Unsponsored BDRX"
+    }
+  }
