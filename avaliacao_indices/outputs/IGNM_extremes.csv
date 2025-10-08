@@ -1,5 +1,0 @@
-n,scenario,cagr,sharpe,base_cagr,base_sharpe
-1,remove_best,-1.0,0.04833018519772984,,
-1,remove_worst,inf,,,
-5,remove_best,-1.0,-0.04312756027321793,,
-5,remove_worst,inf,,,

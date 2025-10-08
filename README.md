@@ -1,193 +1,261 @@
-# Avaliacao_indices_bolsa
-Trabalho 1 - CMP 609 : Introdução aos Métodos Computacionais em Finanças (2025-II)
+# Avaliação de Índices da Bolsa Brasileira (B3): Análise Multidimensional de Risco-Retorno com Foco em Carry Trade e Eventos Extremos
 
-indices = {
-    "rows": [
-        {
-            "name": "amplos",
-            "symbols": ["IBOV", "IBXX", "IBXL", "IBRA"]
-        },
-        {
-            "name": "capitalizacao",
-            "symbols": ["MLCX", "SMLL", "IVBX"]
-        },
-        {
-            "name": "governanca_dividendos",
-            "symbols": ["IGCX", "ITAG", "IGNM", "IGCT", "IDIV"]
-        },
-        {
-            "name": "tematicos_esg",
-            "symbols": ["ICO2", "ISEE"]
-        },
-        {
-            "name": "setoriais",
-            "symbols": ["ICON", "IEEX", "IFNC", "IMOB", "INDX", "IMAT", "UTIL"]
-        },
-        {
-            "name": "alternativos",
-            "symbols": ["IFIX", "BDRX"]
-        }
-    ]
-}
+**Trabalho 1 - CMP 609: Introdução aos Métodos Computacionais em Finanças (2025-II)**
 
+---
 
-1) Introdução
-- Motivação: por que índices e por que B3? Papel do CDI como benchmark em BRL.
-- Questões de pesquisa:
-  - Como os índices se comparam em risco-retorno (em excesso ao CDI)?
-  - Em que medida a carteira (índice) melhora o perfil em relação às suas componentes (diversificação)?
-  - Existem sazonalidades robustas nos índices/sets? Qual a relevância prática?
-  - Quanto do retorno/risco dos índices é explicado por poucos dias extremos?
-- Contribuições: transparência metodológica (total return, CDI na mesma base), análises de robustez, e visualizações focadas em efeito de diversificação e caudas.
+## 1. Introdução e Motivação
 
-2) Dados e Preparação
-- Universo: famílias de índices da B3 listadas (amplos, capitalização, governança/dividendos, temáticos ESG, setoriais, alternativos).
-- Frequência e período: diário (preferencial), com cortes por subperíodos (ex.: 2014–2019; 2020–2022; 2022–2024; 2025 YTD).
-- Ajustes:
-  - Retornos totais (incluindo proventos) das componentes e índices.
-  - Pesos: usar composições históricas por rebalance (trimestral/semestre). Se não disponível, documentar suposições.
-  - CDI: converter para a mesma frequência dos retornos; trabalhar sempre em excesso ao CDI quando aplicável.
-  - Qualidade: tratamento de faltantes, não-sincronia (avaliar semanal/mensal para robustez), checagem de tracking error do índice reconstruído vs oficial.
+### 1.1 Contexto e Relevância
+A B3 (Brasil, Bolsa, Balcão) oferece uma ampla gama de índices que capturam diferentes segmentos e estratégias do mercado acionário brasileiro. Esta diversidade permite aos investidores e gestores de recursos construir portfólios especializados, mas também levanta questões fundamentais sobre:
 
-3) Análise de Retorno e Risco entre Índices
-3.1) Estatística descritiva em excesso ao CDI
-- Métricas: retorno médio (aritmético), retorno composto (CAGR), volatilidade anualizada, skewness, kurtosis.
-- Correções: diferença entre média aritmética vs geométrica (volatility drag).
-- Gráficos:
-  - Retorno acumulado: índice vs índice–CDI vs CDI.
-  - Barras de retorno anualizado (geométrico) e volatilidade com ICs.
-  - QQ-plot por índice para caudas.
+- **Eficiência relativa**: Como diferentes índices se comparam em termos de risco-retorno?
+- **Papel do carrego**: Qual o impacto da estrutura de juros brasileira (CDI/Selic) na performance relativa dos índices?
+- **Robustez temporal**: Como a performance se mantém ao longo de diferentes regimes econômicos?
+- **Contribuição de eventos extremos**: Quanto da variabilidade de retornos é explicada por poucos dias de mercado?
 
-3.2) Desempenho ajustado a risco
-- Métricas: Sharpe e Sortino (com ajuste de autocorrelação para IFIX/Small caps), Calmar.
-- Subperíodos: repetir para blocos de regime; apresentar estabilidade temporal.
-- Gráficos:
-  - Sharpe/Sortino com IC95% por subperíodo.
-  - “Underwater” (drawdown) e tempo de recuperação.
+### 1.2 O CDI como Benchmark Fundamental
+No contexto brasileiro, o CDI (Certificado de Depósito Interbancário) representa o custo de oportunidade livre de risco em moeda local. Diferentemente de mercados desenvolvidos onde treasury bills servem como referência, o Brasil apresenta:
 
-3.3) Sensibilidade ao mercado e fatores simples
-- Betas e alfas: regressão dos índices (excesso ao CDI) contra um mercado amplo (IBRA ou IBOV).
-- Opcional: incluir proxies de fatores (tamanho: SMLL–MLCX; dividendos: IDIV; defensivo: UTIL/IFNC).
-- Gráficos:
-  - Beta e correlação rolantes (12 meses).
-  - Decomposição do retorno em alpha + beta×mercado por subperíodo.
+- **Juros reais historicamente elevados**: Criando um "carrego" significativo para investimentos de renda variável
+- **Volatilidade da taxa Selic**: Impactando diretamente o custo de oportunidade
+- **Indexação da dívida pública**: Gerando correlações complexas entre renda fixa e variável
 
-3.4) Concentração e diversificação
-- Métricas: HHI de pesos, top-10 pesos, razão de diversificação = Σ w_i σ_i / σ_port.
-- Gráficos:
-  - Evolução do HHI e da razão de diversificação.
-  - Paridade “peso vs contribuição ao risco” (Pareto).
+### 1.3 Questões de Pesquisa Centrais
 
-4) Componentes dos Índices, Diversificação e Sazonalidade
-4.1) Efeito de diversificação: componentes vs índice
-- Comparação: dispersão risco-retorno das ações componentes (pontos) vs o índice (marcador) para cada índice.
-- Métricas:
-  - Volatilidade do índice vs média ponderada das volatilidades (ganho de diversificação).
-  - Contribuição marginal de risco (MCR) e top-5 contribuições ao risco.
-- Gráficos:
-  - Scatter risco-retorno (com elipse de confiança) de componentes e posição do índice.
-  - Barras das top-5 contribuições de risco vs top-5 pesos.
+1. **Análise Risco-Retorno**: Como os índices se posicionam no espaço risco-retorno considerando diferentes horizontes temporais e ajustados pelo CDI?
 
-4.2) Equal-weight vs cap-weight (robustez de construção)
-- Construir versão equal-weight para as mesmas componentes e rebalancear em frequência definida.
-- Avaliar: retorno, volatilidade, Sharpe, turnover.
-- Gráficos:
-  - Comparativo cap-weight vs equal-weight (retorno acumulado e tabela de métricas).
-  - Diferença de desempenho ao longo do tempo (cap–eq).
+2. **Impacto de Dias Extremos**: Qual a contribuição de dias de alta volatilidade (bull/bear) para o retorno total e risco dos índices?
 
-4.3) Sazonalidade nos índices e nas componentes
-- Dimensões de sazonalidade:
-  - Calendário: mês do ano, dia da semana, viradas de mês (turn-of-the-month), efeitos de feriados.
-  - Microestrutural: último/primeiro dia de rebalanceamento de índice (se datas conhecidas).
-- Metodologia:
-  - Retornos médios condicionais e testes simples (t-test/bootstraps); controlar múltiplas comparações.
-  - Robustez: usar versões winsorizadas ou excluir outliers para não “contaminar”.
-- Gráficos:
-  - Heatmap de retorno médio por mês x índice.
-  - Boxplots por dia da semana e por índice; marcar significância.
+3. **Efeito Carrego vs. Volatilidade**: Como a relação risco-retorno se altera quando consideramos o diferencial entre o retorno dos índices e o CDI?
 
-4.4) Dispersão cross-sectional como termômetro
-- Métrica: desvio-padrão entre retornos das componentes por data; correlação com a vol do índice.
-- Gráficos:
-  - Série temporal da dispersão vs vol do índice e correlação rolante.
-  - Histogramas comparando períodos de alta vs baixa dispersão.
+4. **Concentração e Diversificação**: Como a concentração dos índices afeta sua performance durante diferentes regimes de mercado?
 
-5) Como os Índices São Afetados por Dias com Maior/Menor Retorno
-5.1) Contribuição de dias extremos para o retorno total
-- Excluir top-N melhores e piores dias e recomputar CAGR e Sharpe (N = 5, 10, 20 por ano e na amostra).
-- Insight: sensibilidade do retorno de longo prazo a poucos dias.
-- Gráficos:
-  - Barras do CAGR com/sem top-N melhores e piores dias.
-  - Curvas de retorno acumulado excluindo extremos (sobrepostas).
+5. **Sazonalidades e Padrões Temporais**: Existem padrões robustos que podem ser explorados ou que devem ser considerados na análise de risco?
 
-5.2) Regime de volatilidade e cliques de correlação
-- Analítica: em janelas de estresse, correlações sobem, a diversificação cai; relacione com performance dos índices.
-- Gráficos:
-  - Razão de diversificação e correlação média implícita ao longo do tempo (usar identidade de variância).
-  - Marcadores de eventos (COVID, choques de commodities/juros).
+---
 
-5.3) Efeito de “under/over‑reaction” pós-extremos
-- Estudo evento simples:
-  - Condicionar retornos D+1, D+5, D+20 após um dia no top 1% melhor/pior de cada índice.
-- Gráficos:
-  - Linhas com média acumulada pós-evento e ICs.
+## 2. Universo de Análise: Taxonomia dos Índices B3
 
-6) Robustez Temporal e Benchmarks
-6.1) Subperíodos e estabilidade
-- Repetir as principais métricas em blocos (2014–2019; 2020–2022; 2022–2024; 2025 YTD).
-- Testes de mudança estrutural simples (Chow/Bai-Perron, opcional).
+### 2.1 Categorização dos Índices
 
-6.2) Frequências alternativas e não-sincronia
-- Recalcular análises chave em semanal/mensal (especial atenção a SMLL/IFIX).
-- Comparar correlações e Sharpes.
+#### **Índices Amplos (Proxy do Mercado)**
+- **IBOV**: Bovespa (tradicional, por liquidez)
+- **IBXX**: Brasil 100 (100 maiores por capitalização)
+- **IBXL**: Brasil 50 (Large Caps)
+- **IBRA**: Brasil Amplo (representa ~95% da capitalização)
 
-6.3) CDI como referência
-- Trabalhar sempre em excesso ao CDI para Sharpe/beta/alpha; mostrar também nominal para intuição.
-- Gráficos: retornos acumulados índice–CDI e dispersão risco-retorno em excesso ao CDI.
+#### **Índices por Capitalização**
+- **MLCX**: Mid-Large Cap
+- **SMLL**: Small Cap
+- **IVBX**: Valor (Value investing)
 
-7) Resultados e Discussão
-- Síntese dos trade-offs por família:
-  - Amplos (IBOV/IBRA/IBXL/IBXX): risco de mercado e concentração.
-  - Capitalização (MLCX/SMLL/IVBX): tamanho e caudas.
-  - Governança/Dividendos (IGCX/ITAG/IGNM/IGCT/IDIV): drawdowns e estabilidade.
-  - Setoriais (ICON/IEEX/IFNC/IMOB/INDX/IMAT/UTIL): sensibilidade a ciclos e juros/commodities.
-  - Alternativos (IFIX/BDRX): renda recorrente e componente cambial.
-- Onde a diversificação do índice supera suas componentes; quando falha (crises).
-- Relevância de sazonalidades e de dias extremos para decisões práticas.
-- Limitações: dados de composição, proventos, custos/tributação, viés de sobrevivência.
+#### **Índices de Governança e Dividendos**
+- **IGCX**: Governança Corporativa Trade Index
+- **ITAG**: Ações com Tag Along
+- **IGNM**: Novo Mercado
+- **IGCT**: Governança Corporativa
+- **IDIV**: Dividendos
 
-8) Conclusões
-- 3–5 afirmações objetivas com respaldo nos resultados.
-- Pistas para trabalhos futuros: extensão multifatorial, otimizações com restrições, análise intradiária.
+#### **Índices Temáticos e ESG**
+- **ICO2**: Carbono Eficiente
+- **ISEE**: Sustentabilidade Empresarial
 
-Apêndices
-A) Fórmulas e detalhes de anualização e métricas
-- Retornos simples/log; anualização geométrica; vol anual; Sharpe ajustado por autocorrelação; beta/alpha; VaR/ES; razão de diversificação; correlação média implícita.
+#### **Índices Setoriais**
+- **ICON**: Consumo
+- **IEEX**: Energia Elétrica
+- **IFNC**: Financeiro
+- **IMOB**: Imobiliário
+- **INDX**: Industrial
+- **IMAT**: Materiais Básicos
+- **UTIL**: Utilidade Pública
 
-B) Checagens e armadilhas (mini-guia)
-- CDI na mesma base; total return vs price; pesos de início do período; tracking error; root‑time pitfall em VaR; efeito dos outliers; winsorização vs trimming.
+#### **Índices Alternativos**
+- **IFIX**: Fundos Imobiliários
+- **BDRX**: Brazilian Depositary Receipts
 
-C) Reprodutibilidade
-- Organização de código: ingestão, limpeza, construção de índices, métricas, gráficos, tabelas.
-- Sementes e versões de pacotes; arquivos de configuração (paths, datas de rebalance, tickers).
+---
 
-Lista compacta de figuras (prioridade)
-- F1: Retornos acumulados (índice vs índice–CDI vs CDI), por família.
-- F2: Dispersão risco-retorno: componentes vs índice (diversificação).
-- F3: Barras CAGR vs média aritmética (volatility drag).
-- F4: Sharpe/Sortino (IC95%) e vol rolante (12m).
-- F5: Underwater e tempo de recuperação.
-- F6: HHI de pesos e top-5 contribuições ao risco.
-- F7: Heatmap de sazonalidade (mês x índice).
-- F8: Boxplots por dia da semana (por índice).
-- F9: Impacto de excluir top-N melhores/piores dias (CAGR).
-- F10: Cap-weight vs equal-weight (comparativo).
+## 3. Metodologia de Análise
 
-Checklist operacional (resumo)
-- Consolidar composições históricas e proventos; construir retornos totais das componentes.
-- Reconstituir cada índice cap-weight por janela de rebalance; validar contra série oficial.
-- Calcular retornos em excesso ao CDI com CDI na mesma base.
-- Gerar métricas e figuras principais nas janelas totais e por subperíodos.
-- Rodar sazonalidades com correção de múltiplas comparações e robustez (winsorizar).
-- Executar análises de dias extremos (excluir top-N; estudo de evento pós-extremo).
-- Documentar limitações e sensibilidade (semanal/mensal; equal-weight).
+### 3.1 Preparação dos Dados
+- **Série temporal**: Dados diários (preferencial) com cortes por subperíodos
+- **Períodos de análise**: 
+  - 2014-2019 (Pré-pandemia)
+  - 2020-2022 (Pandemia e políticas expansionistas)
+  - 2022-2024 (Normalização monetária)
+  - 2025 YTD (Período corrente)
+- **Base de cálculo**: Total return (incluindo dividendos reinvestidos)
+- **Benchmark**: CDI acumulado na mesma periodicidade
+
+### 3.2 Métricas Fundamentais
+
+#### **Performance Ajustada ao Risco**
+- **CAGR (Compound Annual Growth Rate)**
+- **Volatilidade anualizada** (desvio-padrão dos retornos)
+- **Sharpe Ratio** = (Retorno - CDI) / Volatilidade
+- **Sortino Ratio** (penaliza apenas downside)
+- **Information Ratio** vs IBOV
+- **Maximum Drawdown** e duração da recuperação
+
+#### **Métricas de Concentração e Diversificação**
+- **Índice Herfindahl-Hirschman (HHI)** dos pesos: HHI = Σ(wᵢ)²
+- **Effective Number of Stocks**: 1/HHI
+- **Top-10 concentration**: Soma dos 10 maiores pesos
+- **Diversification Ratio**: Σ(wᵢ × σᵢ) / σₚₒᵣₜfóₗᵢₒ
+
+### 3.3 Análise de Dias Extremos (Metodologia Central)
+
+#### **Identificação de Dias Extremos**
+- **Percentis de retorno**: P5, P95 (5% e 95%)
+- **Volatilidade condicional**: Dias com retorno |R| > 2σ
+- **Regimes de mercado**: Bull (retornos > P75), Bear (retornos < P25)
+
+#### **Análise de Sensibilidade**
+Para cada índice, calcular métricas removendo:
+- **Top-N melhores dias** (N = 5, 10, 20 por ano)
+- **Top-N piores dias** (N = 5, 10, 20 por ano)
+- **Combinação**: Removendo ambos simultaneamente
+
+**Métricas recalculadas**:
+- CAGR ajustado
+- Sharpe Ratio ajustado
+- Volatilidade residual
+- **Contribuição marginal** dos dias extremos
+
+#### **Análise do Efeito Carrego**
+- **Excess Return** = Retorno do Índice - CDI
+- **Carry-Adjusted Sharpe** = Excess Return / Volatilidade
+- **Tracking Error** vs CDI
+- **Correlação rolante** com a curva de juros (DI360)
+
+---
+
+## 4. Estrutura Analítica Proposta
+
+### 4.1 Análise Descritiva e Exploratória
+
+#### **Visualização Risco-Retorno**
+- **Scatter plot** principal: Volatilidade (x) × Retorno Anualizado (y)
+  - Cada ponto representa um índice
+  - Tamanho do ponto proporcional à capitalização média
+  - Cores por categoria (Amplos, Setoriais, etc.)
+  - Linha de eficiência do CDI como referência
+
+#### **Decomposição por Componentes**
+Para cada categoria de índices:
+- **Scatter das ações componentes** vs posição do índice
+- **Elipse de confiança** (95%) das componentes
+- **Contribuição marginal ao risco** vs peso no índice
+
+### 4.2 Análise Temporal e de Regimes
+
+#### **Evolução da Concentração**
+- **Série temporal do HHI** para cada índice
+- **Evolução do Diversification Ratio**
+- **Correlação com volatilidade do mercado** (IBOV)
+
+#### **Análise de Regimes de Volatilidade**
+- **Estados de alta/baixa volatilidade** usando Markov Switching
+- **Correlação condicional** entre índices por regime
+- **Performance relativa** em cada regime
+
+#### **Dispersão Cross-Sectional como Termômetro**
+- **Métrica**: σ_cs,t = std(R_i,t) para i ∈ componentes do índice
+- **Correlação** entre dispersão e volatilidade do índice
+- **Poder preditivo** da dispersão para retornos futuros
+
+### 4.3 Análise de Robustez e Estabilidade
+
+#### **Estabilidade Temporal**
+- **Testes de mudança estrutural** (Chow, Bai-Perron)
+- **Análise de subperíodos** com métricas comparáveis
+- **Correlação rolante** entre índices
+
+#### **Stress Testing**
+- **Cenários simulados** de choques:
+  - Queda de 20% em 1 dia seguida de recuperação gradual
+  - Período prolongado de alta volatilidade (30 dias)
+  - Mudança abrupta na estrutura de juros
+- **Análise de sensibilidade** das métricas principais
+
+---
+
+## 5. Contribuições Metodológicas Esperadas
+
+### 5.1 Transparência e Replicabilidade
+- **Metodologia total return** consistente para todos os índices
+- **Base comum de comparação** (CDI ajustado)
+- **Código aberto** para replicação dos resultados
+
+### 5.2 Foco no Contexto Brasileiro
+- **Análise específica do efeito carrego** em economia de juros altos
+- **Impacto da estrutura tributária** (IR sobre ganhos de capital)
+- **Consideração da liquidez diferenciada** dos mercados brasileiros
+
+### 5.3 Metodologia de Dias Extremos
+- **Quantificação precisa** da contribuição de outliers
+- **Framework para análise** de robustez de estratégias
+- **Insights para gestão de risco** em mercados emergentes
+
+---
+
+## 6. Resultados Esperados e Aplicações
+
+### 6.1 Para Investidores Institucionais
+- **Mapeamento de oportunidades** de diversificação
+- **Identificação de prêmios de risco** específicos por segmento
+- **Framework para asset allocation** tática e estratégica
+
+### 6.2 Para Gestores de Recursos
+- **Benchmarks alternativos** ao IBOV tradicional
+- **Insights sobre concentração** e seus impactos
+- **Estratégias de timing** baseadas em padrões identificados
+
+### 6.3 Para Academia e Regulação
+- **Base empírica** para discussões sobre estrutura de mercado
+- **Evidências sobre eficiência** dos diferentes segmentos
+- **Subsídios para políticas** de desenvolvimento do mercado de capitais
+
+---
+
+## 7. Cronograma e Deliverables
+
+### 7.1 Entregáveis Principais
+1. **Relatório técnico** completo (30-40 páginas)
+2. **Dashboard interativo** com as principais métricas
+3. **Dataset limpo** com séries históricas padronizadas
+4. **Código Python/R** documentado para replicação
+
+### 7.2 Estrutura do Relatório Final
+1. **Executive Summary** (2 páginas)
+2. **Análise descritiva** dos índices (8-10 páginas)
+3. **Análise de dias extremos** e efeito carrego (10-12 páginas)
+4. **Análise de concentração** e diversificação (6-8 páginas)
+5. **Robustez temporal** e regimes (6-8 páginas)
+6. **Conclusões e recomendações** (3-4 páginas)
+7. **Apêndices técnicos** (metodologias, códigos, dados)
+
+---
+
+## 8. Considerações Técnicas e Limitações
+
+### 8.1 Desafios Metodológicos
+- **Survivorship bias** em índices com alteração de composição
+- **Look-ahead bias** em análises de estratégias
+- **Liquidez heterogênea** entre componentes dos índices
+
+### 8.2 Dados e Fontes
+- **B3**: Dados oficiais dos índices e composições
+- **Economática/Bloomberg**: Séries históricas de preços
+- **BCB**: CDI e estrutura de juros
+- **CVM**: Informações corporativas complementares
+
+### 8.3 Limitações do Escopo
+- **Foco quantitativo**: Análise fundamentalista limitada
+- **Custos de transação**: Não considerados diretamente
+- **Impacto tributário**: Simplificado para PF padrão
+
+---
+
+Esta proposta reformulada oferece uma estrutura mais robusta e focada nas questões centrais de análise de índices no contexto brasileiro, com ênfase especial no papel do carrego (CDI) e na contribuição de dias extremos para o risco-retorno dos índices.
